@@ -1,10 +1,3 @@
-img {
-    width: 200px;
-    height: 200px;
-    float: left;
-    margin-right: 20px;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -60,4 +53,95 @@ header nav ul li {
     font-weight: bold;
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
-/* Header style begins*/
+/* Header style ends */
+
+/* About Me style begins */
+.about-me {
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 2%;
+}
+
+.about-me * {
+    text-shadow: 10px -10px 15px rgba(0, 0, 0, 0.5);
+}
+
+.about-me h2 {
+    font-size: 36px;
+    font-weight: 1000;
+    text-shadow: 10px -10px 15px rgba(0, 0, 0, 0.5);
+}
+
+.about-me:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.about-me:hover * {
+    color: rgba(255, 255, 255, 0.85);
+    text-shadow: -3px 3px 6px rgba(255, 255, 255, 0.5);
+}
+
+.about-me:hover img {
+    box-shadow: -3px 3px 6px rgba(255, 255, 255, 0.5);
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pic-links {
+    padding-left: 1%;
+    flex-direction: column;
+    border-left: groove 5px rgb(6, 212, 6);
+    border-bottom: groove 5px rgb(6, 212, 6);
+}
+
+.pic-links img {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 5%;
+    box-shadow: 10px -10px 15px rgba(0, 0, 0, 0.5);
+}
+
+.pic-links a {
+    color: rgba(1, 1, 1, 0.85);
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: bold;
+    text-shadow: 10px -10px 15px rgba(0, 0, 0, 0.5);
+}
+
+.pic-links ul {
+    list-style: none;
+}
+
+.bio-skills {
+    font-weight: bold;
+    flex-direction: column;
+    margin-left: 10%;
+    border-top: groove 5px rgb(6, 212, 6);
+    border-right: groove 5px rgb(6, 212, 6);
+
+}
+
+.bio-skills div {
+    font-size: 24px;
+    margin-bottom: 5%;
+    text-shadow: 7px -7px 13px rgba(0, 0, 0, 0.5);
+}
+
+.bio-skills div ul h3 {
+    font-size: 34px;
+    border-bottom: solid 1px rgb(6, 212, 6);
+    text-shadow: 7px -7px 100px rgb(6, 212, 6);
+    margin: 0 30%;
+}
+
+.bio-skills div ul li {
+    list-style: none;
+    font-weight: 1000;
+    text-shadow: 7px -7px 100px rgb(6, 212, 6);
+}
+/* About Me style ends */
+
