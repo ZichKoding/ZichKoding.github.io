@@ -13,25 +13,38 @@ img {
 
 body {
     font-family: Helvetica, Arial, sans-serif;
+    background-image: url("../images/MyDesk.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
 }
 
 /* Header style begins*/
 header {
     padding: 20px 35px;
-    background-color: rgba(0, 0, 179, 1);
+    background-color: rgba(138, 138, 138, 0.13);
+    background-image: url("../images/MyDesk.jpg");
     background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
 }
 
 header h1 {
     font-size: 55px;
+    font-weight: 1000;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 header a {
     text-decoration: none;
-    color: whitesmoke;
+    color: blue;
 }
 
 header nav ul {
@@ -42,6 +55,9 @@ header nav ul {
 
 header nav ul li {
     padding: 10px 20px;
-    margin: 0 20px;
+    margin: 10px 20px;
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 /* Header style begins*/
