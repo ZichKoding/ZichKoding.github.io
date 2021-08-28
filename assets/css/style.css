@@ -1,4 +1,5 @@
 * {
+    color:rgba(255, 255, 255, 0.85);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -20,6 +21,7 @@ header {
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
+    box-shadow: -10px 10px 15px rgba(0, 0, 0, 1);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -104,6 +106,7 @@ header nav ul li {
     height: 400px;
     margin-bottom: 5%;
     box-shadow: 10px -10px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
 }
 
 .pic-links a {
@@ -150,10 +153,15 @@ header nav ul li {
 
 /* Skills style begins */
 .style-skills {
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.85);
     padding: 5px 10px;
     text-align: center;
     border-radius: 2%;
     box-shadow: -10px 10px 15px rgba(0, 0, 0, 1);
+    display: flex;
+    justify-content: space-between;
 }
 
 .style-skills h2 {
@@ -161,10 +169,14 @@ header nav ul li {
     font-weight: 1000;
     color: whitesmoke;
     text-shadow: 10px -10px 15px rgba(0, 0, 0, 0.5);
+    border-right: ridge 5px rgb(6, 212, 6);
+    border-bottom: ridge 5px rgb(6, 212, 6);
 }
 
 .python-skills {
-    
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.85);
 }
 
 .pythonApps {
