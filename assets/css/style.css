@@ -234,7 +234,7 @@ a:hover {
 footer {
     font-size: 24px;
     font-weight: 700;
-    color: rgba(255, 255, 255, 0.85);
+    color: rgba(255, 255, 255, 1);
     padding: 5px 10px;
     text-align: center;
     border-radius: 2%;
@@ -284,3 +284,296 @@ footer h2 {
 .style-skills:hover {
     background-color: rgba(128, 128, 128, 0.8);
 }
+
+/* Media Queries style begins */
+@media screen and (max-width: 1125px) {
+    * {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    body {
+        background-position: left;
+    }
+
+    /* Header style begins */
+    header {
+        background-image: none;
+        background-color: rgba(0, 0, 0, 0.75);
+        position: relative;
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    header nav ul li {
+        font-size: 24px;
+        width: 50%;
+    }
+    /* Header style ends */
+
+    /* About Me style begins */
+    .about-me {
+        width: 100%;
+    }
+
+    .about-me h2 {
+        margin: 0;
+        font-size: 24px;
+    }
+
+    .pic-links {
+        padding: none;
+    }
+
+    .pic-links img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .pic-links a{
+        font-size: 28px;
+        border-bottom: solid 1px rgb(6, 212, 6);
+    }
+
+    .bio-skills {
+        margin: 0;
+        margin-top: 3%;
+        width: 100%;
+    }
+
+    .bio-skills p {
+        font-size: 22px;
+    }
+
+    .bio-skills div ul h3 {
+        margin: 0;
+    }
+    /* About Me style ends */
+    
+    /* Skills style begins */
+    .style-skills h2 {
+        font-size: 24px;
+    }
+
+    .skillcontainer {
+        display: grid;
+    }
+
+    .skillcontainer h3 {
+        font-size: 30;
+        margin: 0;
+    }
+
+    .pyimg {
+        width: 80%;
+    }
+
+    .pythonApps, 
+    .htmlcss {
+        font-size: 22px;
+    }
+    /* Skills style ends */
+
+    /* Footer style begins */
+    footer {
+        background-color: rgba(0, 0, 0, 0.75);
+    }
+    /* Footer style begins */
+}
+
+
+@media screen and (max-width: 720px) {
+    * {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    body {
+        background-position: left;
+    }
+
+    /* Header style begins */
+    header {
+        background-image: none;
+        background-color: rgba(0, 0, 0, 0.75);
+        position: relative;
+    }
+
+    header h1 {
+        font-size: 50px;
+    }
+
+    header nav ul li {
+        font-size: 24px;
+        width: 50%;
+    }
+    /* Header style ends */
+
+    /* About Me style begins */
+    .about-me {
+        width: 100%;
+    }
+
+    .about-me h2 {
+        margin: 0;
+        font-size: 32px;
+    }
+
+    .pic-links {
+        padding: none;
+    }
+
+    .pic-links img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .pic-links a{
+        font-size: 28px;
+        border-bottom: solid 1px rgb(6, 212, 6);
+    }
+
+    .bio-skills {
+        margin: 0;
+        margin-top: 3%;
+        width: 100%;
+    }
+
+    .bio-skills p {
+        font-size: 28px;
+    }
+
+    .bio-skills div ul h3 {
+        margin: 0;
+    }
+    /* About Me style ends */
+    
+    /* Skills style begins */
+    .style-skills h2 {
+        font-size: 24px;
+    }
+
+    .skillcontainer h3 {
+        font-size: 30;
+        margin: 0;
+    }
+
+    .pyimg {
+        width: 100%;
+    }
+
+    .pythonApps, 
+    .htmlcss {
+        font-size: 22px;
+    }
+    /* Skills style ends */
+
+    /* Footer style begins */
+    footer {
+        background-color: rgba(0, 0, 0, 0.75);
+    }
+    /* Footer style begins */
+}
+
+@media screen and (max-width: 575px) {
+    * {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    body {
+        background-position: left;
+    }
+
+    /* Header style begins */
+    header {
+        background-image: none;
+        background-color: rgba(0, 0, 0, 0.75);
+        position: relative;
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    header nav ul li {
+        font-size: 24px;
+        width: 50%;
+    }
+    /* Header style ends */
+
+    /* About Me style begins */
+    .about-me {
+        width: 100%;
+    }
+
+    .about-me h2 {
+        margin: 0;
+        font-size: 24px;
+    }
+
+    .pic-links {
+        padding: none;
+    }
+
+    .pic-links img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .pic-links a{
+        font-size: 28px;
+        border-bottom: solid 1px rgb(6, 212, 6);
+    }
+
+    .bio-skills {
+        margin: 0;
+        margin-top: 3%;
+        width: 100%;
+    }
+
+    .bio-skills p {
+        font-size: 22px;
+    }
+
+    .bio-skills div ul h3 {
+        margin: 0;
+    }
+    /* About Me style ends */
+    
+    /* Skills style begins */
+    .style-skills h2 {
+        font-size: 24px;
+    }
+
+    .skillcontainer h3 {
+        font-size: 30;
+        margin: 0;
+    }
+
+    .pyimg {
+        width: 100%;
+    }
+
+    .pythonApps, 
+    .htmlcss {
+        font-size: 22px;
+    }
+    /* Skills style ends */
+
+    /* Footer style begins */
+    footer {
+        background-color: rgba(0, 0, 0, 0.75);
+    }
+    /* Footer style begins */
+}
+
+
+/* Media Queries style ends */
