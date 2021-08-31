@@ -57,6 +57,13 @@ header nav ul li {
     background-color: rgba(0, 0, 0, 0.85);
     border-radius: 10%;
 }
+
+header nav ul li:hover, 
+a:hover {
+    background-color: rgba(0, 128, 0, 0.8);
+    color: rgba(0, 0, 0, 0.85);
+    border-radius: 5%;
+}
 /* Header style ends */
 
 /* About Me style begins */
@@ -222,3 +229,59 @@ header nav ul li {
     margin: 0 20px;
 }
 /* Skills style ends*/
+
+/* Footer style begins*/
+footer {
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.85);
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 2%;
+    box-shadow: -10px 10px 15px rgba(0, 0, 0, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer h2 {
+    text-shadow: -1px 1px 10px rgba(0, 158, 0, 0.5);
+    border-bottom: ridge 5px rgb(6, 212, 6);
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 100px;
+    align-items: center;
+}
+
+.footer-container div {
+    margin: 0 90px;
+}
+
+.footer-container div ul li {
+    list-style: none;
+    margin: 20px 0px;
+}
+
+.footer-container div ul li a {
+    text-shadow: -1px 1px 10px rgba(0, 158, 0, 0.5);
+}
+
+.phone-links {
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 40px rgba(0, 158, 0, 1);
+    text-shadow: 7px -7px 13px rgba(0, 0, 0, 0.5);
+    border-radius: 2%;
+}
+
+.my-city {
+    box-shadow: 0px 0px 40px rgba(0, 158, 0, 1);
+}
+/* Footer style ends*/
+
+.about-me:hover,
+.style-skills:hover {
+    background-color: rgba(128, 128, 128, 0.8);
+}
