@@ -211,6 +211,10 @@ main h2 {
     margin-bottom: 2.5%;
 }
 
+.htmlcss iframe {
+    width: 0%;
+}
+
 .python-skills, .htmlcss {
     margin: 0 20px;
 }
