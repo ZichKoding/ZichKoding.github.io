@@ -1,6 +1,6 @@
 # **Welcome ZichKoding's/Chris Zichko's portfolio!**
 
-![Chris Zichko's Portfolio](./assets/images/ChrisZichko.gif)
+[![Chris Zichko's Portfolio](./assets/images/ChrisZichko.gif)](https://zichkoding.github.io)
 
 ## **Table of Contents**
 
