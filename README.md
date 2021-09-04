@@ -26,4 +26,4 @@ This section I have provided screenshots that are also links to interactive proj
  However, Piano Chord Progression app will just be directed to my GitHub repository containing the code only. I am currently adding this to Repl and plan on embedding it into my portfolio.
 
  ### **Contact Me**
- Here is where I have left some extra ways to contact me. I have, also, left an embedded map of what city and state I reside in. 
+ Here is where I have left some additional ways to contact me. I have, also, left an embedded map of what city and state I reside in. 
