@@ -18,7 +18,7 @@ My current skills are in Python 3+, JavaScript ES6+, CSS3, HTML5, SQL, GitHub, M
 The navigation bar will take you to various places on the website except Guides. This is an addition that is planned, but will be slowly updating as I continue to grow. 
 
 ### **About Me**
-This section is where I have listed a few links to get ahold of me along with a recent picture. This is where I have wrote a tiny summary showing off my passion for developing software.
+This section is where I have listed a few links to contact me along with a recent picture. This is where I have written a tiny summary showing off my passion for developing software.
 
 ### **Projects**
 This section I have provided screenshots that are also links to interactive projects that I have made.
