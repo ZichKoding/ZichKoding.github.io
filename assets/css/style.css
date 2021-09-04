@@ -1,12 +1,24 @@
+:root {
+    --darkGreen-smallShadow: -1px 1px 10px rgba(0, 158, 0, 0.5);
+    --darkSmall-shadow: 7px -7px 13px rgba(0, 0, 0, 0.5);
+    --largeDark-boxShadow: -10px 10px 15px rgba(0, 0, 0, 1);
+    --lightWhite-fontColor: rgba(255, 255, 255, 0.85);
+    --blackOpaic-background: rgba(0, 0, 0, 0.5);
+    --h2border-lightgreen: ridge 5px rgb(6, 212, 6);
+    --small-border: solid 1px rgb(6, 212, 6);
+    --project-imgShadow: -10px 10px 25px rgba(0, 0, 0, 1);
+    --footer-contentShadow: 0px 0px 40px rgba(0, 158, 0, 1);
+    --phoneEle-background: rgba(40, 40, 40, 0.75);
+}
+
 * {
-    color:rgba(255, 255, 255, 0.85);
+    color: var(--lightWhite-fontColor);
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 body {
-    font-family: Helvetica, Arial, sans-serif;
     background-image: url("../images/MyDesk.jpg");
     background-size: cover;
     background-attachment: fixed;
@@ -21,7 +33,7 @@ header {
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
-    box-shadow: -10px 10px 15px rgba(0, 0, 0, 1);
+    box-shadow: var(--largeDark-boxShadow);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -66,37 +78,30 @@ a:hover {
 /* Header style ends */
 
 /* About Me style begins */
-.about-me {
-    background-color: rgba(0, 0, 0, 0.5);
+main {
+    background-color: var(--blackOpaic-background);
     padding: 5px 10px;
-    text-align: center;
     border-radius: 2%;
-    box-shadow: -10px 10px 15px rgba(0, 0, 0, 1);
+    box-shadow: var(--largeDark-boxShadow);
     margin-bottom: 5px;
 }
 
-.about-me * {
-    color: rgba(255, 255, 255, 0.85);
-    text-shadow: -3px 3px 6px rgba(0, 0, 0, 0.5);
-}
-
-.about-me h2 {
+main h2 {
     font-size: 36px;
-    font-family: Bush Script MT, Helvetica, Arial, sans-serif;
     font-weight: 1000;
-    text-shadow: 10px -10px 15px rgba(0, 0, 0, 0.5);
-    border-bottom: ridge 5px rgb(6, 212, 6);
+    text-shadow: var(--largeDark-boxShadow);
+    border-bottom: var(--h2border-lightgreen);
     margin: 0 30%;
 }
 
 .about-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .pic-links {
     padding-left: 1%;
-    flex-direction: column;
 }
 
 .pic-links img {
@@ -108,11 +113,10 @@ a:hover {
 }
 
 .pic-links a {
-    color: whitesmoke;
     text-decoration: none;
     font-size: 32px;
     font-weight: bold;
-    text-shadow: 10px -10px 15px rgba(0, 0, 0, 0.5);
+    text-shadow: var(--largeDark-boxShadow);
 }
 
 .pic-links ul {
@@ -125,24 +129,10 @@ a:hover {
     margin-left: 10%;
 }
 
-.bio-skills div {
+.bio-skills p {
     font-size: 24px;
     margin-bottom: 5%;
-    text-shadow: 7px -7px 13px rgba(0, 0, 0, 0.5);
-}
-
-.bio-skills div ul h3 {
-    font-size: 34px;
-    font-weight: 1000;
-    border-bottom: solid 1px rgb(6, 212, 6);
-    text-shadow: 7px -7px 100px rgb(6, 212, 6);
-    margin: 0 30%;
-}
-
-.bio-skills div ul li {
-    list-style: none;
-    font-weight: 1000;
-    text-shadow: 7px -7px 100px rgb(6, 212, 6);
+    text-shadow: var(--darkSmall-shadow);
 }
 /* About Me style ends */
 
@@ -151,24 +141,22 @@ a:hover {
 .style-skills {
     font-size: 24px;
     font-weight: 700;
-    color: rgba(255, 255, 255, 0.85);
     padding: 5px 10px;
     text-align: center;
     border-radius: 2%;
-    box-shadow: -10px 10px 15px rgba(0, 0, 0, 1);
+    box-shadow: var(--largeDark-boxShadow);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: var(--blackOpaic-background);
 }
 
 .style-skills h2 {
     font-size: 36px;
     font-weight: 1000;
-    color: whitesmoke;
     text-shadow: -10px 10px 15px rgba(0, 0, 0, 0.5);
-    border-bottom: ridge 5px rgb(6, 212, 6);
+    border-bottom: var(--h2border-lightgreen);
 }
 
 .skillcontainer {
@@ -180,11 +168,10 @@ a:hover {
 .python-skills {
     font-size: 24px;
     font-weight: 700;
-    color: rgba(255, 255, 255, 0.85);
 }
 
 .python-skills h3 {
-    border-bottom: solid 1px rgb(6, 212, 6);
+    border-bottom: var(--small-border);
     font-size: 36px;
     margin: 0 32%;
 }
@@ -196,7 +183,7 @@ a:hover {
 }
 
 .pyimg {
-    box-shadow: -10px 10px 25px rgba(0, 0, 0, 1);
+    box-shadow: var(--project-imgShadow);
     width: 500px;
 }
 
@@ -214,7 +201,7 @@ a:hover {
 }
 
 .htmlcss h3 {
-    border-bottom: solid 1px rgb(6, 212, 6);
+    border-bottom: var(--small-border);
     font-size: 36px;
     margin: 0 32%;
 }
@@ -233,7 +220,6 @@ a:hover {
 footer {
     font-size: 24px;
     font-weight: 700;
-    color: rgba(255, 255, 255, 1);
     padding: 5px 10px;
     text-align: center;
     border-radius: 2%;
@@ -241,11 +227,12 @@ footer {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    background-color: var(--blackOpaic-background);
 }
 
 footer h2 {
-    text-shadow: -1px 1px 10px rgba(0, 158, 0, 0.5);
-    border-bottom: ridge 5px rgb(6, 212, 6);
+    text-shadow: var(--darkGreen-bigShadow);
+    border-bottom: var(--h2border-lightgreen);
 }
 .footer-container {
     display: flex;
@@ -264,22 +251,22 @@ footer h2 {
 }
 
 .footer-container div ul li a {
-    text-shadow: -1px 1px 10px rgba(0, 158, 0, 0.5);
+    text-shadow: var(--darkGreen-bigShadow);
 }
 
 .phone-links {
-    background-color: rgba(0, 0, 0, 0.5);
-    box-shadow: 0px 0px 40px rgba(0, 158, 0, 1);
-    text-shadow: 7px -7px 13px rgba(0, 0, 0, 0.5);
+    background-color: var(--blackOpaic-background);
+    box-shadow: var(--footer-contentShadow);
+    text-shadow: var(--darkSmall-shadow);
     border-radius: 2%;
 }
 
 .my-city {
-    box-shadow: 0px 0px 40px rgba(0, 158, 0, 1);
+    box-shadow: var(--footer-contentShadow);
 }
 /* Footer style ends*/
 
-.about-me:hover,
+main:hover,
 .style-skills:hover {
     background-color: rgba(128, 128, 128, 0.8);
 }
@@ -300,7 +287,7 @@ footer h2 {
     header {
         background-image: none;
         background-color: rgba(0, 0, 0, 0.75);
-        position: relative;
+        padding: 5px 10px;
     }
 
     header h1 {
@@ -314,17 +301,8 @@ footer h2 {
     /* Header style ends */
 
     /* About Me style begins */
-    .about-me {
-        width: 100%;
-    }
-
-    .about-me h2 {
+    main h2 {
         margin: 0;
-        font-size: 24px;
-    }
-
-    .pic-links {
-        padding: none;
     }
 
     .pic-links img {
@@ -334,7 +312,7 @@ footer h2 {
 
     .pic-links a{
         font-size: 28px;
-        border-bottom: solid 1px rgb(6, 212, 6);
+        border-bottom: var(--small-border);
     }
 
     .bio-skills {
@@ -353,16 +331,8 @@ footer h2 {
     /* About Me style ends */
     
     /* Skills style begins */
-    .style-skills h2 {
-        font-size: 24px;
-    }
-
-    .skillcontainer {
-        display: grid;
-    }
-
     .skillcontainer h3 {
-        font-size: 30;
+        font-size: 30px;
         margin: 0;
     }
 
@@ -384,12 +354,9 @@ footer h2 {
 }
 
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 770px) {
     * {
-        width: 100%;
         flex-direction: column;
-        text-align: center;
-        align-items: center;
     }
 
     body {
@@ -398,53 +365,25 @@ footer h2 {
 
     /* Header style begins */
     header {
-        background-image: none;
-        background-color: rgba(0, 0, 0, 0.75);
+        background-color: var(--phoneEle-background);
+        padding: 5px 10px;
         position: relative;
     }
 
-    header h1 {
-        font-size: 50px;
-    }
-
-    header nav ul li {
-        font-size: 24px;
-        width: 50%;
+    header p {
+        font-size: 34px;
     }
     /* Header style ends */
 
     /* About Me style begins */
-    .about-me {
-        width: 100%;
-    }
-
-    .about-me h2 {
+    main {
+        background-color: var(--phoneEle-background);
         margin: 0;
-        font-size: 32px;
-    }
-
-    .pic-links {
-        padding: none;
-    }
-
-    .pic-links img {
-        width: 250px;
-        height: 250px;
-    }
-
-    .pic-links a{
-        font-size: 28px;
-        border-bottom: solid 1px rgb(6, 212, 6);
     }
 
     .bio-skills {
         margin: 0;
-        margin-top: 3%;
         width: 100%;
-    }
-
-    .bio-skills p {
-        font-size: 28px;
     }
 
     .bio-skills div ul h3 {
@@ -453,130 +392,40 @@ footer h2 {
     /* About Me style ends */
     
     /* Skills style begins */
-    .style-skills h2 {
-        font-size: 24px;
+    .style-skills {
+        background-color: var(--phoneEle-background);
     }
 
-    .skillcontainer h3 {
-        font-size: 30;
+    .python-skills {
         margin: 0;
+        padding: 0;
     }
 
     .pyimg {
-        width: 100%;
+        width: 90%;
     }
 
     .pythonApps, 
     .htmlcss {
-        font-size: 22px;
+        margin: 0;
+        padding: 0;
     }
     /* Skills style ends */
 
     /* Footer style begins */
     footer {
-        background-color: rgba(0, 0, 0, 0.75);
+        background-color: var(--phoneEle-background);
     }
-    /* Footer style begins */
 }
 
 @media screen and (max-width: 575px) {
-    * {
-        width: 100%;
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-    }
-
-    body {
-        background-position: left;
-    }
-
-    /* Header style begins */
-    header {
-        background-image: none;
-        background-color: rgba(0, 0, 0, 0.75);
-        position: relative;
-    }
-
-    header h1 {
-        font-size: 40px;
-    }
-
-    header nav ul li {
-        font-size: 24px;
-        width: 50%;
-    }
-    /* Header style ends */
-
-    /* About Me style begins */
-    .about-me {
-        width: 100%;
-    }
-
-    .about-me h2 {
-        margin: 0;
-        font-size: 24px;
-    }
-
-    .pic-links {
-        padding: none;
-    }
-
-    .pic-links img {
-        width: 250px;
-        height: 250px;
-    }
-
-    .pic-links a{
-        font-size: 28px;
-        border-bottom: solid 1px rgb(6, 212, 6);
-    }
-
-    .bio-skills {
-        margin: 0;
-        margin-top: 3%;
-        width: 100%;
-    }
-
-    .bio-skills p {
-        font-size: 22px;
-    }
-
-    .bio-skills div ul h3 {
-        margin: 0;
-    }
-    /* About Me style ends */
-    
-    /* Skills style begins */
-    .style-skills h2 {
-        font-size: 24px;
-    }
-
-    .skillcontainer h3 {
-        font-size: 30;
-        margin: 0;
-    }
-    
-    .python-skills {
-        margin: 0;
-    }
-
-    .pyimg {
-        width: 100%;
-    }
-
-    .pythonApps, 
-    .htmlcss {
-        margin: 0;
-        font-size: 22px;
-    }
-    /* Skills style ends */
-
-    /* Footer style begins */
+    header,
+    main,
+    .style-skills,
     footer {
-        background-color: rgba(0, 0, 0, 0.75);
+        padding: 1px;
     }
-    /* Footer style begins */
+    
 }
 
 
