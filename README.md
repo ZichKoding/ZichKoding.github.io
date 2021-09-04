@@ -1,5 +1,5 @@
 # **Welcome ZichKoding's/Chris Zichko's portfolio!**
-
+_Click the GIF for live website_
 [![Chris Zichko's Portfolio](./assets/images/ChrisZichko.gif)](https://zichkoding.github.io)
 
 ## **Table of Contents**
