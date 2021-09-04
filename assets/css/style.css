@@ -162,7 +162,7 @@ main h2 {
 .skillcontainer {
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content:space-between;
 }
 
 .python-skills {
@@ -187,7 +187,6 @@ main h2 {
     width: 500px;
 }
 
-
 .pianoChordProgression,
 .probabilityCalculator,
 .budgetApp,
@@ -198,6 +197,7 @@ main h2 {
 
 .htmlcss, .python-skills {
     padding: 2%;
+    width: 100%;
 }
 
 .htmlcss h3 {
@@ -208,7 +208,7 @@ main h2 {
 
 .htmlcss div {
     margin-top: 2.5%;
-    margin-bottom: 2.5%;
+    margin-bottom: 2.55%;
 }
 
 .htmlcss iframe {
@@ -217,6 +217,10 @@ main h2 {
 
 .python-skills, .htmlcss {
     margin: 0 20px;
+}
+
+.pyimg:hover {
+    width: 550px;
 }
 /* Skills style ends*/
 
@@ -274,6 +278,7 @@ main:hover,
 .style-skills:hover {
     background-color: rgba(128, 128, 128, 0.8);
 }
+
 
 /* Media Queries style begins */
 @media screen and (max-width: 1125px) {
