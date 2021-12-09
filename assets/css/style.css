@@ -274,10 +274,10 @@ footer h2 {
 }
 /* Footer style ends*/
 
-main:hover,
+/* main:hover,
 .style-skills:hover {
     background-color: rgba(128, 128, 128, 0.8);
-}
+} */
 
 
 /* Media Queries style begins */
@@ -347,6 +347,9 @@ main:hover,
 
     .pyimg {
         width: 80%;
+    }
+    .pyimg:hover {
+        width: 100%;
     }
 
     .pythonApps, 
