@@ -6,19 +6,16 @@ import Nav from './components/Nav';
 function App() {
   const [categories] = useState([
     {
-      name: 'About Me',
-      
+      name: 'About Me'
     },
     {
-      name: 'Portfolio',
-      
+      name: 'Portfolio'
     },
     {
-      name: 'Contact',
-      
+      name: 'Contact'
     },
     {
-      name: 'Resume',
+      name: 'Resume'
     }
   ]);
 
