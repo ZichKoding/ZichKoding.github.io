@@ -13,19 +13,18 @@ function Nav(props) {
 
     return (
         <header className='flex-row'>
-            <h2><a href='/'>Chris Zichko (ZichKoding)</a></h2>
+            <h2><a className='yeller' href='/'>Chris Zichko (ZichKoding)</a></h2>
             <nav>
                 <ul className='nav-flexgrid'>
                     {categories.map((category) => (
                         <li 
-                        className='li-design'
+                        className={`li-design ${currentCategory.name === category.name && 'li-click'}`}
                         key={category.name}
+                        onClick={() => {
+                            setCurrentCategory(category);
+                        }}
                         >
-                            <span
-                                onClick={() => {
-                                    setCurrentCategory(category);
-                                }}
-                            >
+                            <span>
                                 {category.name}
                             </span>
                         </li>

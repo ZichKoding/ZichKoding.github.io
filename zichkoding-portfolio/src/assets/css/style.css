@@ -1,0 +1,436 @@
+:root {
+    --darkGreen-smallShadow: -1px 1px 10px rgba(0, 158, 0, 0.5);
+    --darkSmall-shadow: 7px -7px 13px rgba(0, 0, 0, 0.5);
+    --largeDark-boxShadow: -10px 10px 15px rgba(0, 0, 0, 1);
+    --lightWhite-fontColor: rgba(255, 255, 255, 0.85);
+    --blackOpaic-background: rgba(0, 0, 0, 0.5);
+    --h2border-lightgreen: ridge 5px rgb(6, 212, 6);
+    --small-border: solid 1px rgb(6, 212, 6);
+    --project-imgShadow: -10px 10px 25px rgba(0, 0, 0, 1);
+    --footer-contentShadow: 0px 0px 40px rgba(0, 158, 0, 1);
+    --phoneEle-background: rgba(40, 40, 40, 0.75);
+}
+
+* {
+    color: var(--lightWhite-fontColor);
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-image: url("../images/MyDesk.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+
+/* Header style begins*/
+header {
+    padding: 20px 35px;
+    background-color: rgba(138, 138, 138, 0.13);
+    background-image: url("../images/MyDesk.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    box-shadow: var(--largeDark-boxShadow);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+header h1 {
+    font-size: 55px;
+    font-weight: 1000;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(26, 255, 0);
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header nav ul li {
+    padding: 10px 20px;
+    margin: 10px 20px;
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.5);
+    border-radius: 10%;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+header nav ul li:hover,
+a:hover {
+    text-shadow: 5px 5px 50px rgba(0, 158, 0, 1);
+    border-radius: 5%;
+}
+/* Header style ends */
+
+/* About Me style begins */
+main {
+    background-color: var(--blackOpaic-background);
+    padding: 5px 10px;
+    border-radius: 2%;
+    box-shadow: var(--largeDark-boxShadow);
+    margin-bottom: 5px;
+}
+
+main h2 {
+    font-size: 36px;
+    font-weight: 1000;
+    text-shadow: var(--largeDark-boxShadow);
+    border-bottom: var(--h2border-lightgreen);
+    margin: 0 30%;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pic-links {
+    padding-left: 1%;
+}
+
+.pic-links img {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 5%;
+    box-shadow: 15px 20px 30px rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
+
+.pic-links a {
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: bold;
+    text-shadow: var(--largeDark-boxShadow);
+}
+
+.pic-links ul {
+    list-style: none;
+}
+
+.bio-skills {
+    font-weight: bold;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+.bio-skills p {
+    font-size: 24px;
+    margin-bottom: 5%;
+    text-shadow: var(--darkSmall-shadow);
+}
+/* About Me style ends */
+
+/* Skills style begins */
+
+.style-skills {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 2%;
+    box-shadow: var(--largeDark-boxShadow);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--blackOpaic-background);
+}
+
+.style-skills h2 {
+    font-size: 36px;
+    font-weight: 1000;
+    text-shadow: -10px 10px 15px rgba(0, 0, 0, 0.5);
+    border-bottom: var(--h2border-lightgreen);
+}
+
+.skillcontainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.python-skills {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.python-skills h3 {
+    border-bottom: var(--small-border);
+    font-size: 36px;
+    margin: 0 32%;
+}
+
+.pythonApps {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pyimg {
+    box-shadow: var(--project-imgShadow);
+    width: 500px;
+}
+
+
+.pianoChordProgression,
+.probabilityCalculator,
+.budgetApp,
+.timeCalculator {
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.htmlcss, .python-skills {
+    padding: 2%;
+}
+
+.htmlcss h3 {
+    border-bottom: var(--small-border);
+    font-size: 36px;
+    margin: 0 32%;
+}
+
+.htmlcss div {
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.htmlcss iframe {
+    width: 0%;
+}
+
+.python-skills, .htmlcss {
+    margin: 0 20px;
+}
+/* Skills style ends*/
+
+/* Footer style begins*/
+footer {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--blackOpaic-background);
+}
+
+footer h2 {
+    text-shadow: var(--darkGreen-bigShadow);
+    border-bottom: var(--h2border-lightgreen);
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 100px;
+    align-items: center;
+}
+
+.footer-container div {
+    margin: 0 90px;
+}
+
+.footer-container div ul li {
+    list-style: none;
+    margin: 20px 0px;
+}
+
+.footer-container div ul li a {
+    text-shadow: var(--darkGreen-bigShadow);
+}
+
+.phone-links {
+    background-color: var(--blackOpaic-background);
+    box-shadow: var(--footer-contentShadow);
+    text-shadow: var(--darkSmall-shadow);
+    border-radius: 2%;
+}
+
+.my-city {
+    box-shadow: var(--footer-contentShadow);
+}
+/* Footer style ends*/
+
+main:hover,
+.style-skills:hover {
+    background-color: rgba(128, 128, 128, 0.8);
+}
+
+/* Media Queries style begins */
+@media screen and (max-width: 1125px) {
+    * {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    body {
+        background-position: left;
+    }
+
+    /* Header style begins */
+    header {
+        background-image: none;
+        background-color: rgba(0, 0, 0, 0.75);
+        padding: 5px 10px;
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    header nav ul li {
+        font-size: 24px;
+        width: 50%;
+    }
+    /* Header style ends */
+
+    /* About Me style begins */
+    main h2 {
+        margin: 0;
+    }
+
+    .pic-links img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .pic-links a{
+        font-size: 28px;
+        border-bottom: var(--small-border);
+    }
+
+    .bio-skills {
+        margin: 0;
+        margin-top: 3%;
+        width: 100%;
+    }
+
+    .bio-skills p {
+        font-size: 22px;
+    }
+
+    .bio-skills div ul h3 {
+        margin: 0;
+    }
+    /* About Me style ends */
+    
+    /* Skills style begins */
+    .skillcontainer h3 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .pyimg {
+        width: 80%;
+    }
+
+    .pythonApps, 
+    .htmlcss {
+        font-size: 22px;
+    }
+    /* Skills style ends */
+
+    /* Footer style begins */
+    footer {
+        background-color: rgba(0, 0, 0, 0.75);
+    }
+    /* Footer style begins */
+}
+
+
+@media screen and (max-width: 770px) {
+    * {
+        flex-direction: column;
+    }
+
+    body {
+        background-position: left;
+    }
+
+    /* Header style begins */
+    header {
+        background-color: var(--phoneEle-background);
+        padding: 5px 10px;
+        position: relative;
+    }
+
+    header p {
+        font-size: 34px;
+    }
+    /* Header style ends */
+
+    /* About Me style begins */
+    main {
+        background-color: var(--phoneEle-background);
+        margin: 0;
+    }
+
+    .bio-skills {
+        margin: 0;
+        width: 100%;
+    }
+
+    .bio-skills div ul h3 {
+        margin: 0;
+    }
+    /* About Me style ends */
+    
+    /* Skills style begins */
+    .style-skills {
+        background-color: var(--phoneEle-background);
+    }
+
+    .python-skills {
+        margin: 0;
+        padding: 0;
+    }
+
+    .pyimg {
+        width: 90%;
+    }
+
+    .pythonApps, 
+    .htmlcss {
+        margin: 0;
+        padding: 0;
+    }
+    /* Skills style ends */
+
+    /* Footer style begins */
+    footer {
+        background-color: var(--phoneEle-background);
+    }
+}
+
+@media screen and (max-width: 575px) {
+    header,
+    main,
+    .style-skills,
+    footer {
+        padding: 1px;
+    }
+    
+}
+
+
+/* Media Queries style ends */

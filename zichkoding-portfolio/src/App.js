@@ -29,7 +29,8 @@ function App() {
         setCurrentCategory={setCurrentCategory}
       ></Nav>
       <main>
-        <About></About>
+        {currentCategory === categories[0] && <About></About>}
+        
       </main>
     </>
   );

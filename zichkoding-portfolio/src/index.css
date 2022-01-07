@@ -1,5 +1,5 @@
 * {
-  color: whitesmoke;
+  color: rgb(255, 167, 2);
   margin: 0;
   padding: 0;
 }
@@ -32,6 +32,10 @@ a {
   text-decoration: none;
 }
 
+.yeller {
+  margin-left: 1rem;
+}
+
 .li-design {
   font-style: italic;
   font-size: 1.18rem;
@@ -44,6 +48,9 @@ a {
 }
 .li-design:hover {
   box-shadow: 0 0 0.5rem rgb(255, 255, 255);
+}
+.li-click{
+  box-shadow: 0 0 0.5rem rgb(255, 255, 255);  
 }
 
 .nav-flexgrid {
@@ -58,6 +65,26 @@ a {
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 1rem 1rem;
+}
+
+.about-article {
+  border-radius: 0.7rem;
+  box-shadow: 0 0.5rem 0.5rem rgb(255, 255, 255);
+  padding: 1rem;
+  margin: 1rem 1rem;
+}
+
+.about {
+  text-align: center;
+}
+
+.profile-pic {
+  width: 20rem;
+  border-radius: 1rem;
+}
+
+.bio {
+  width: 50rem;
 }
 
 @media screen and (max-width: 753px) {
@@ -93,4 +120,12 @@ a {
     margin: 0;
   }
 
+  .about-article {
+    padding: 0rem;
+    margin: 1rem 1rem;
+  }
+
+  .bio {
+    margin: 1rem 0rem;
+  }
 }
