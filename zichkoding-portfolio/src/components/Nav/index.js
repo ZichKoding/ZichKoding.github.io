@@ -8,7 +8,7 @@ function Nav(props) {
     } = props;
 
     useEffect(() => {
-        document.title = currentCategory.name;
+        document.title = `Chris Zichko's ${currentCategory.name}`;
     }, [currentCategory]);
 
     return (
