@@ -86,6 +86,15 @@ a {
 
 .bio {
   width: 50rem;
+  text-align: left;
+}
+
+.port-article {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-between;
+  margin: 1rem 1rem;
 }
 
 .project-section {
@@ -146,6 +155,29 @@ a {
   margin: 1rem 0rem 0rem 5rem;
 }
 
+.resume-section {
+  text-align: center;
+  border-radius: 0.7rem;
+  box-shadow: 0 0.5rem 0.5rem rgb(255, 255, 255);
+  padding: 1rem;
+  margin: 1rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.resume {
+  width: 50rem;
+  height: 50rem;
+}
+
+.skills li {
+  margin-bottom: 2rem;
+  font-style: italic;
+  font-weight: 700;
+  border-bottom: solid 1px rgb(255, 167, 2);
+}
+
 @media screen and (max-width: 1599px) {
   .project-photo {
     margin: 1rem 0 0 0;
@@ -189,6 +221,10 @@ a {
     margin: 0;
   }
 
+  .port-article {
+    margin: 0;
+  }
+
   .about-article {
     padding: 0rem;
     margin: 1rem 1rem;
@@ -214,5 +250,9 @@ a {
     display: grid;
     grid-template-columns: 5rem 12rem;
     grid-template-rows: 8rem;
+  }
+
+  .resume {
+    width: 19rem;
   }
 }

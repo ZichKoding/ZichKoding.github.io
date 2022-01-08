@@ -45,7 +45,7 @@ function Portfolio() {
                     <a href={image.url}>
                         <h2 className="project-title">{image.name}</h2>
                     </a>
-                    <div className="flex-row">
+                    <div className="port-article">
                         <p className="bio">{image.description}</p>
                         <a href={image.url} target="_blank" rel="noreferrer">
                             <img 
