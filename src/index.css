@@ -87,6 +87,29 @@ a {
   width: 50rem;
 }
 
+.project-section {
+  border-radius: 0.7rem;
+  box-shadow: 0 0.5rem 0.5rem rgb(255, 255, 255);
+  padding: 1rem;
+  margin: 1rem 1rem;
+}
+
+.project-photo {
+  width: 39rem;
+  margin-right: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0.5rem rgb(255, 255, 255);
+}
+
+.project-title {
+  margin-left: 1rem;
+}
+
+@media screen and (max-width: 1599px) {
+  .project-photo {
+    margin: 1rem 0 0 0;
+  }
+}
 @media screen and (max-width: 753px) {
   .li-design {
     font-size: 1.18rem;
@@ -97,6 +120,10 @@ a {
     margin-left: 1rem;
   }
 
+  .project-photo {
+    width: 20rem;
+    margin: 1rem 0 0 0;
+  }
 }
 
 
@@ -127,5 +154,10 @@ a {
 
   .bio {
     margin: 1rem 0rem;
+  }
+
+  .project-photo {
+    width: 18rem;
+    margin: 0;
   }
 }
