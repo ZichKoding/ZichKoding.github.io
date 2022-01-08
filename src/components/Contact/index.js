@@ -60,7 +60,6 @@ function ContactForm() {
                 <button type='submit' className='contact-button'><a href='mailto:chriszichkocoding@gmail.com'>Submit</a></button>
             </form>
         </section>
-        
     );
 }
 
