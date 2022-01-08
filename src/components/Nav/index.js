@@ -13,7 +13,7 @@ function Nav(props) {
 
     return (
         <header className='flex-row'>
-            <h2><a className='yeller' href='/'>Chris Zichko (ZichKoding)</a></h2>
+            <h1><a className='yeller' href='/'>Chris Zichko (ZichKoding)</a></h1>
             <nav>
                 <ul className='nav-flexgrid'>
                     {categories.map((category) => (

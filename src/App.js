@@ -3,6 +3,7 @@ import './App.css';
 import About from './components/About';
 import Nav from './components/Nav';
 import Portfolio from './components/Portfolio';
+import ContactForm from './components/Contact';
 
 function App() {
   const [categories] = useState([
@@ -32,6 +33,7 @@ function App() {
       <main>
         {currentCategory === categories[0] && <About></About>}
         {currentCategory === categories[1] && <Portfolio></Portfolio>}
+        {currentCategory === categories[2] && <ContactForm></ContactForm>}
       </main>
     </>
   );
