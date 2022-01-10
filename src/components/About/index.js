@@ -27,7 +27,7 @@ function About() {
                 <img className="profile-pic" src={ProfilePic} alt="Chris Zichko"></img>
                 <p className="bio">
                     <p>
-                        Hi! I'm Chris and I'm a passionate and proud Full-Stack Software Developer, specializing in the MERN stack!
+                        Hi! I'm Chris and I'm a passionate and proud Full-Stack Software Developer specializing in the MERN stack!
                         <br />
                         <br />
                         <ul>
