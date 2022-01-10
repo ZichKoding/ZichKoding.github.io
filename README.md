@@ -1,6 +1,40 @@
+# ***Chris Zichko's Portfolio Powered by ZichKoding***
+***Version 2***
+
+[_Click here for live page!_](https://zichkoding.github.io)
+![Chris Zichko's Portfolio](./assets/images/updatedPortfoliopic.png)
+
+## ***Description***
+This is my portfolio that I have created showcase my skills and abilities for myself and for my brand ***ZichKoding***. Of course, no matter how well I present myself there is **always** room for improvement, and that is exactly what I plan to do throughout my career as a Full-Stack Software Developer.
+#
+### ***Table of Contents***
+* [About Me](#AboutMe)
+* [Portfolio](#Portfolio)
+* [Contact](#Contact)
+* [Resume](#Resume)
+#
+### **AboutMe**
+The About Me section is to give a quick down and dirty of who I am and what I can do along with the years experience I have. 
+#
+### **Portfolio**
+The Portfolio section brings you to a few of my favorite projects and two of them are collaborative efforts where I worked with a team to complete the application, ***TuneItUp Eleven:Eleven***
+#
+### **Contact**
+Contact section brings you to a Contact form that you can enter and submit, which when you click submit it will open your email up with my email address to contact me.
+#
+### **Resume**
+My Resume section displays my resume and allows the user to download a PDF of my resume. Also, this section displays some of my skills, as well.
+#
+#
+#
+#
+#
+#
 # **Welcome ZichKoding's/Chris Zichko's portfolio!**
-_Click the GIF for live website_
-[![Chris Zichko's Portfolio](./assets/images/ChrisZichko.gif)](https://zichkoding.github.io)
+Version 1
+
+_Click the photo below for live website_
+[![Chris Zichko's Portfolio](./assets/images/ChrisZichkoPortfolio.png)](https://zichkoding.github.io)
 
 ## **Table of Contents**
 
@@ -27,73 +61,3 @@ This section I have provided screenshots that are also links to interactive proj
 
  ### **Contact Me**
  Here is where I have left some additional ways to contact me. I have, also, left an embedded map of what city and state I reside in. 
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
