@@ -205,9 +205,6 @@ a {
 .github-live {
   width: 4rem;
 }
-/* .github {
-
-} */
 
 .linkedin {
   width: 3.7rem;
@@ -233,6 +230,19 @@ a {
 .div-project:hover .port-flex-row {
   visibility: visible;
   opacity: 0.7;
+}
+
+.resume-button {
+  width: 10rem;
+  margin: 1rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  background-color: rgb(33, 44, 48);
+}
+
+.download {
+  display: flex;
+  flex-direction: column;
 }
 
 @media screen and (max-width: 1599px) {

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 function Resume() {
     const mySkills = [
@@ -20,10 +20,15 @@ function Resume() {
 
     return (
         <section className="resume-section">
-            <embed src={require('../../assets/images/Resume+Chris+Zichko.pdf')} className="resume" />
+            <div className="download">
+                <object data={require('../../assets/images/Resume+Chris+Zichko.pdf')} className="resume"></object>
+                <a href={require('../../assets/images/Resume+Chris+Zichko.pdf')} download={"ChrisZichkoResume"}>
+                    <button className="resume-button">Download Chris's Resume</button>
+                </a>
+            </div>
             <ul className="skills">
                 {mySkills.map((skill) => (
-                    <li>
+                    <li key={skill}>
                         {skill}
                     </li>
                 ))}
