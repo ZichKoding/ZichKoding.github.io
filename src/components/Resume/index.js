@@ -21,8 +21,8 @@ function Resume() {
     return (
         <section className="resume-section">
             <div className="download">
-            <iframe src="https://drive.google.com/file/d/1GP0QMYrBV24I7W_rVr6Unz545d6Fo53-/preview" allow="autoplay" className="resume"></iframe>
-                <a href={require('../../assets/images/Resume+Chris+Zichko.pdf')} download={"ChrisZichkoResume"}>
+            <iframe src="https://drive.google.com/file/d/1SytBNZLdvhIQuS_UYa0EZ1WkpboNh4K7/preview" className="resume" allow="autoplay"></iframe>
+                <a href={require('../../assets/images/ChrisZichkoResume.pdf')} download={"ChrisZichkoResume"}>
                     <button className="resume-button">Download Chris's Resume</button>
                 </a>
             </div>
