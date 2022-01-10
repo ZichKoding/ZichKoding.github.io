@@ -5,6 +5,7 @@ import Nav from './components/Nav';
 import Portfolio from './components/Portfolio';
 import ContactForm from './components/Contact';
 import Resume from './components/Resume';
+import Footer from './components/Footer';
 
 function App() {
   const [categories] = useState([
@@ -37,6 +38,7 @@ function App() {
         {currentCategory === categories[2] && <ContactForm></ContactForm>}
         {currentCategory === categories[3] && <Resume></Resume>}
       </main>
+      <Footer></Footer>
     </>
   );
 }

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # **Welcome ZichKoding's/Chris Zichko's portfolio!**
 _Click the GIF for live website_
 [![Chris Zichko's Portfolio](./assets/images/ChrisZichko.gif)](https://zichkoding.github.io)
@@ -28,7 +27,6 @@ This section I have provided screenshots that are also links to interactive proj
 
  ### **Contact Me**
  Here is where I have left some additional ways to contact me. I have, also, left an embedded map of what city and state I reside in. 
-=======
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -99,4 +97,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> develop

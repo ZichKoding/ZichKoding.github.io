@@ -1,5 +1,6 @@
 * {
-  color: rgb(255, 167, 2);
+  /* color: rgb(212, 116, 37); */
+  color: white;
   margin: 0;
   padding: 0;
 }
@@ -19,6 +20,7 @@ code {
 }
 
 header {
+  background-color: darkcyan;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
   box-shadow: 0rem 0.2rem 0.1rem rgb(255, 255, 255);
@@ -34,6 +36,7 @@ a {
 
 .yeller {
   margin-left: 1rem;
+  text-shadow: 0rem 0rem 1rem black;
 }
 
 .li-design {
@@ -77,6 +80,7 @@ a {
 
 .about {
   text-align: center;
+  border-bottom: solid 1px rgb(255, 167, 2);
 }
 
 .profile-pic {
@@ -112,6 +116,7 @@ a {
 }
 
 .project-title {
+  border-bottom: solid 1px rgb(255, 167, 2);
   margin-left: 1rem;
 }
 
@@ -178,6 +183,48 @@ a {
   border-bottom: solid 1px rgb(255, 167, 2);
 }
 
+.li-footerdesign {
+  text-align: center;
+  margin-left: 2rem;
+}
+
+.sociallinks {
+  width: 3rem;
+}
+
+.github-live {
+  width: 4rem;
+}
+/* .github {
+
+} */
+
+.linkedin {
+  width: 3.7rem;
+}
+
+.youtube {
+  width: 3.7rem;
+}
+
+.port-flex-row{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-evenly;
+  margin: 1rem 1rem;
+  margin-top: -18.8rem;
+  padding: 7rem 0rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 1rem;
+  visibility: hidden;
+}
+
+.div-project:hover .port-flex-row {
+  visibility: visible;
+  opacity: 0.7;
+}
+
 @media screen and (max-width: 1599px) {
   .project-photo {
     margin: 1rem 0 0 0;
@@ -196,6 +243,15 @@ a {
   .project-photo {
     width: 20rem;
     margin: 1rem 0 0 0;
+  }
+
+  .github-live {
+    width: 3rem;
+  }
+
+  .port-flex-row {
+    margin-top: -9.75rem;
+    padding: 3rem 0rem;
   }
 
 }
@@ -254,5 +310,19 @@ a {
 
   .resume {
     width: 19rem;
+  }
+
+  .li-footerdesign {
+    text-align: center;
+    margin-left: 2rem;
+  }
+
+  .github-live {
+    width: 2.5rem;
+  }
+
+  .port-flex-row {
+    margin-top: -9rem;
+    padding: 3rem 0rem;
   }
 }
