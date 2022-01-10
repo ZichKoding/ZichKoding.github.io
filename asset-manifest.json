@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c61eca4b.css",
+    "main.js": "/static/js/main.c419458d.js",
+    "static/js/787.65565052.chunk.js": "/static/js/787.65565052.chunk.js",
+    "static/media/TuneItUp.jpg": "/static/media/TuneItUp.6b12cbc85f562b234a05.jpg",
+    "static/media/Resume+Chris+Zichko.pdf": "/static/media/Resume+Chris+Zichko.f9d2a69f80e3bf23c2df.pdf",
+    "static/media/THE_SoN_API.jpg": "/static/media/THE_SoN_API.830877d0c34b413b8eb6.jpg",
+    "static/media/ProfilePic.jpeg": "/static/media/ProfilePic.49cc898b7aeb9e726ec3.jpeg",
+    "static/media/ElevenEleven.jpg": "/static/media/ElevenEleven.8af1d07901d188de12a8.jpg",
+    "static/media/ZichkoTechBlog.jpg": "/static/media/ZichkoTechBlog.9e5af194cf4e906132a7.jpg",
+    "static/media/AnotherBudgetApp.jpg": "/static/media/AnotherBudgetApp.ec4afe00feb1ce4c6b63.jpg",
+    "static/media/ZNoteTaker.jpg": "/static/media/ZNoteTaker.b679e5986db44b4d4b79.jpg",
+    "index.html": "/index.html",
+    "main.c61eca4b.css.map": "/static/css/main.c61eca4b.css.map",
+    "main.c419458d.js.map": "/static/js/main.c419458d.js.map",
+    "787.65565052.chunk.js.map": "/static/js/787.65565052.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c61eca4b.css",
+    "static/js/main.c419458d.js"
+  ]
+}
