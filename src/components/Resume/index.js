@@ -21,7 +21,7 @@ function Resume() {
     return (
         <section className="resume-section">
             <div className="download">
-                <object data={require('../../assets/images/Resume+Chris+Zichko.pdf')} className="resume"></object>
+            <iframe src="https://drive.google.com/file/d/1GP0QMYrBV24I7W_rVr6Unz545d6Fo53-/preview" allow="autoplay" className="resume"></iframe>
                 <a href={require('../../assets/images/Resume+Chris+Zichko.pdf')} download={"ChrisZichkoResume"}>
                     <button className="resume-button">Download Chris's Resume</button>
                 </a>
