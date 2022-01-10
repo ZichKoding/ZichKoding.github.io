@@ -2,14 +2,23 @@ import React from "react";
 import ProfilePic from "../../assets/images/ProfilePic.jpeg";
 
 function About() {
-    const bio = `Passionate and proud Full-Stack Software Developer going on two years of experience 
-    in Frontend and one year experience with Backend, while leveraging my previous experiences 
-    outside of the technology field in maintenance and military to help create a more efficient, 
-    captivating, and simple user experience using Python 3+, JavaScript ES6+, Node.js, Sequelize, 
-    Express.js, Handlebars, Jest, CSS3, Bootstrap, jQuery, HTML5, GitHub, Heroku, MySQL, Kivy 2.0+, 
-    and WordPress. I have on my own received a certificate in Scientific Computing with Python from 
-    FreeCodeCamp, and currently working on becoming a certified Full-Stack Software Developer through 
-    the University of Central Florida.`
+
+    const mySkills = [
+        "MongoDB/Mongoose.js", 
+        "Express.js",
+        "React",
+        "Node.js",
+        "Python3+",
+        "Kivy 2.0+",
+        "JavaScript ES6+",
+        "CSS3",
+        "HTML5",
+        "MySQL/Sequelize.js",
+        "Handlebars.js",
+        "Jest",
+        "Git",
+        "Heroku"
+    ];
 
     return (
         <article className="about-article">
@@ -17,7 +26,32 @@ function About() {
             <div className="flex-row">
                 <img className="profile-pic" src={ProfilePic} alt="Chris Zichko"></img>
                 <p className="bio">
-                    {bio}
+                    <p>
+                        Hi! I'm Chris and I'm a passionate and proud Full-Stack Software Developer, specializing in the MERN stack!
+                        <br />
+                        <br />
+                        <ul>
+                            <li><span className="about">Frontend</span>: 2 years</li>
+                            <li><span className="about">Backend</span>: 1 year</li>
+                        </ul>
+                        <br />
+                        My military and maintenance background help me create and efficient, captivating, and simple user experience. 
+                        I have a certificate in Scientific Computing with Python from FreeCodeCamp, and currently working on becoming 
+                        a certified Full-Stack Software Developer through the University of Central Florida.
+                    </p>
+                    <br />
+                    <p>
+                        Below area few of my the skills that I can expertly use:
+                        <br />
+                        <br />
+                        <ul>
+                            {mySkills.map((skill) => (
+                                <li>
+                                    <span className="myskill">{skill}</span>
+                                </li>
+                            ))}
+                        </ul>
+                    </p>
                 </p>
             </div>
         </article>

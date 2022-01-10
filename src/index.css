@@ -83,8 +83,14 @@ a {
   border-bottom: solid 1px rgb(255, 167, 2);
 }
 
+.myskill {
+  border-bottom: solid 1px rgb(255, 167, 2);
+  margin-bottom: 1rem;
+}
+
 .profile-pic {
   width: 20rem;
+  height: 20rem;
   border-radius: 1rem;
 }
 
@@ -128,6 +134,10 @@ a {
   margin: 1rem 1rem;
   display: flex;
   flex-wrap: wrap;
+}
+
+.contact-article h2 {
+  margin-bottom: 1rem;
 }
 
 .col-2 {

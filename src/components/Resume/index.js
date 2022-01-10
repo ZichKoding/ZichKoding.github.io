@@ -1,34 +1,32 @@
 import React, { useState } from "react";
 
 function Resume() {
+    const mySkills = [
+        "MongoDB/Mongoose.js", 
+        "Express.js",
+        "React",
+        "Node.js",
+        "Python3+",
+        "Kivy 2.0+",
+        "JavaScript ES6+",
+        "CSS3",
+        "HTML5",
+        "MySQL/Sequelize.js",
+        "Handlebars.js",
+        "Jest",
+        "Git",
+        "Heroku"
+    ];
+
     return (
         <section className="resume-section">
             <embed src={require('../../assets/images/Resume+Chris+Zichko.pdf')} className="resume" />
             <ul className="skills">
-                <li>
-                    MERN
-                </li>
-                <li>
-                    Javascript
-                </li>
-                <li>
-                    Python
-                </li>
-                <li>
-                    Handlebars
-                </li>
-                <li>
-                    HTML5
-                </li>
-                <li>
-                    CSS3
-                </li>
-                <li>
-                    Git
-                </li>
-                <li>
-                    Heroku
-                </li>
+                {mySkills.map((skill) => (
+                    <li>
+                        {skill}
+                    </li>
+                ))}
             </ul>
         </section>
     );
