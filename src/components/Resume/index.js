@@ -6,6 +6,7 @@ function Resume() {
         "Express.js",
         "React",
         "Node.js",
+        "Progressive Web Apps (PWA's)",
         "Python3+",
         "Kivy 2.0+",
         "JavaScript ES6+",
@@ -13,6 +14,7 @@ function Resume() {
         "HTML5",
         "MySQL/Sequelize.js",
         "Handlebars.js",
+        "Webpack.js",
         "Jest",
         "Git",
         "Heroku"

@@ -6,8 +6,9 @@ function About() {
     const mySkills = [
         "MongoDB/Mongoose.js", 
         "Express.js",
-        "React",
+        "React.js",
         "Node.js",
+        "Progressive Web Applications (PWA's)",
         "Python3+",
         "Kivy 2.0+",
         "JavaScript ES6+",
@@ -15,6 +16,7 @@ function About() {
         "HTML5",
         "MySQL/Sequelize.js",
         "Handlebars.js",
+        "Webpack.js",
         "Jest",
         "Git",
         "Heroku"
