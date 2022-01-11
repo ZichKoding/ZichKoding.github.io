@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d45cc613.css",
-    "main.js": "/static/js/main.f184abcc.js",
+    "main.js": "/static/js/main.3166e1ff.js",
     "static/js/787.65565052.chunk.js": "/static/js/787.65565052.chunk.js",
     "static/media/TuneItUp.jpg": "/static/media/TuneItUp.6b12cbc85f562b234a05.jpg",
     "static/media/THE_SoN_API.jpg": "/static/media/THE_SoN_API.830877d0c34b413b8eb6.jpg",
@@ -13,11 +13,11 @@
     "static/media/ZNoteTaker.jpg": "/static/media/ZNoteTaker.b679e5986db44b4d4b79.jpg",
     "index.html": "/index.html",
     "main.d45cc613.css.map": "/static/css/main.d45cc613.css.map",
-    "main.f184abcc.js.map": "/static/js/main.f184abcc.js.map",
+    "main.3166e1ff.js.map": "/static/js/main.3166e1ff.js.map",
     "787.65565052.chunk.js.map": "/static/js/787.65565052.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d45cc613.css",
-    "static/js/main.f184abcc.js"
+    "static/js/main.3166e1ff.js"
   ]
 }
