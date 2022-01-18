@@ -7,6 +7,7 @@ function Resume() {
         "React",
         "Node.js",
         "Progressive Web Apps (PWA's)",
+        "GraphQL",
         "Python3+",
         "Kivy 2.0+",
         "JavaScript ES6+",

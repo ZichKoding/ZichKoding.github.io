@@ -9,6 +9,7 @@ function About() {
         "React.js",
         "Node.js",
         "Progressive Web Applications (PWA's)",
+        "GraphQL",
         "Python3+",
         "Kivy 2.0+",
         "JavaScript ES6+",

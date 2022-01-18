@@ -3,6 +3,13 @@ import React, { useState } from "react";
 function Portfolio() {
     const [projects] = useState([
         {
+            name: 'DeepThoughts',
+            url: 'https://deepthoughts-zichkoding.herokuapp.com',
+            gurl: 'https://github.com/ZichKoding/DeepThoughts',
+            description: `A full MERN (MongoDB, Express.js, React.js, Node.js) social media application to share thoughts, react to thoughts, and add friends! This application also is using GraphQL
+            and Apollo Server to enhance performance and user experience.`
+        },
+        {
             name: 'AnotherBudgetApp',
             url: 'https://anotherbudgetapp.herokuapp.com',
             gurl: 'https://github.com/ZichKoding/AnotherBudgetApp',
