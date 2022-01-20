@@ -3,6 +3,13 @@ import React, { useState } from "react";
 function Portfolio() {
     const [projects] = useState([
         {
+            name: 'ShopShop',
+            url: 'https://shopshopbyzichkoding.herokuapp.com',
+            gurl: 'https://github.com/ZichKoding/shop-shop',
+            description: `A PWA ecommerce website for a user to login, browse, and buy items. A PWA stands for Progressive Web Application,
+             meaning this application can be added to your home screen as it's own standalone app with offline functionality! `
+        },
+        {
             name: 'DeepThoughts',
             url: 'https://deepthoughts-zichkoding.herokuapp.com',
             gurl: 'https://github.com/ZichKoding/DeepThoughts',
