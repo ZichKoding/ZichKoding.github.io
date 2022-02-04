@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.d45cc613.css",
-    "main.js": "/static/js/main.0a23dfc1.js",
+    "main.js": "/static/js/main.04c8b9c8.js",
     "static/js/787.65565052.chunk.js": "/static/js/787.65565052.chunk.js",
     "static/media/TuneItUp.jpg": "/static/media/TuneItUp.6b12cbc85f562b234a05.jpg",
     "static/media/ShopShop.jpg": "/static/media/ShopShop.d1f52d65eba48fa0a6fa.jpg",
     "static/media/THE_SoN_API.jpg": "/static/media/THE_SoN_API.830877d0c34b413b8eb6.jpg",
+    "static/media/Versa-Train.jpg": "/static/media/Versa-Train.a912badac1c7d4bc07b3.jpg",
     "static/media/DeepThoughts.jpg": "/static/media/DeepThoughts.6532a7675dd9ea0a15c4.jpg",
     "static/media/ProfilePic.jpeg": "/static/media/ProfilePic.49cc898b7aeb9e726ec3.jpeg",
     "static/media/ChrisZichkoResume.pdf": "/static/media/ChrisZichkoResume.c84ada73500a148eceec.pdf",
@@ -15,11 +16,11 @@
     "static/media/ZNoteTaker.jpg": "/static/media/ZNoteTaker.b679e5986db44b4d4b79.jpg",
     "index.html": "/index.html",
     "main.d45cc613.css.map": "/static/css/main.d45cc613.css.map",
-    "main.0a23dfc1.js.map": "/static/js/main.0a23dfc1.js.map",
+    "main.04c8b9c8.js.map": "/static/js/main.04c8b9c8.js.map",
     "787.65565052.chunk.js.map": "/static/js/787.65565052.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d45cc613.css",
-    "static/js/main.0a23dfc1.js"
+    "static/js/main.04c8b9c8.js"
   ]
 }
