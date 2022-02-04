@@ -3,6 +3,13 @@ import React, { useState } from "react";
 function Portfolio() {
     const [projects] = useState([
         {
+            name: 'Versa-Train',
+            url: 'https://crispy-gigglers.herokuapp.com/',
+            gurl: 'https://github.com/oldgraybuzzard/crispy-giggle',
+            description: `A MERN stack application using GraphQL for Employers to create and host their training material for their employees to stay up to date with the training required in the job place. 
+            Employers create the employee profiles and give the employees their login and password and the employees once logged in have their own seperate dashboard.`
+        },
+        {
             name: 'ShopShop',
             url: 'https://shopshopbyzichkoding.herokuapp.com',
             gurl: 'https://github.com/ZichKoding/shop-shop',
@@ -48,14 +55,7 @@ function Portfolio() {
             url: 'https://znotetaker.herokuapp.com',
             gurl: 'https://github.com/ZichKoding/NoteTaker',
             description: 'An application for storing your notes. This application is powered by Express.js and Node.js',
-        },
-        {
-            name: 'ElevenEleven',
-            url: 'https://murmuring-mesa-60919.herokuapp.com/',
-            gurl: 'https://github.com/Danster4/studyapp',
-            description: 'Collaborative effort to make a study application for students to connect and study with each other. Technologies used are Express.js, Sequelize, Bcrypt, and MySQL.',
-        },
-        
+        }
     ]);
 
     return (
