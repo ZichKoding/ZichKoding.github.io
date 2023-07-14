@@ -18,17 +18,35 @@ export default function Header() {
  
   return (
         <>
-            <header data-theme="" className="" aria-label="Header of ZichKoding">
-                <h1 className="" aria-label="Welcome to ZichKoding!">
-                    Welcome to {hello}!
+            <header className="navbar bg-base-100" aria-label="Header of ZichKoding">
+                <h1 className="flex-1" aria-label="Welcome to ZichKoding!">
+                    <a className="btn btn-ghost normal-case text-xl" href='/'>
+                        Welcome to {hello}!
+                    </a>
                 </h1>
 
-                <div>
-                    <ul>
-                        <li>Bio</li>
-                        <li>Projects</li>
-                        <li>Resume</li>
-                        <li>Contact</li>
+                <div className='flex-none'>
+                    <ul className='menu menu-horizontal px-1 md:container'>
+                        <li>
+                            <a className='btn btn-ghost normal-case' href='/bio'>
+                                Bio
+                            </a>
+                        </li>
+                        <li>
+                            <a className='btn btn-ghost normal-case' href='/projects'>
+                                Projects
+                            </a>
+                        </li>
+                        <li>
+                            <a className='btn btn-ghost normal-case' href='/resume'>
+                                Resume
+                            </a>
+                        </li>
+                        <li>
+                            <a className='btn btn-ghost normal-case' href='/contact'>
+                                Contact
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </header>
