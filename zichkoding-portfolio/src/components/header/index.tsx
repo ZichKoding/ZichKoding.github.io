@@ -18,7 +18,7 @@ export default function Header() {
  
   return (
         <>
-            <header data-theme="dark" className="navbar bg-base-100" aria-label="Header of ZichKoding">
+            <header className="navbar bg-base-100" aria-label="Header of ZichKoding">
                 <h1 className="flex-1" aria-label="Welcome to ZichKoding!">
                     <a className="btn btn-ghost normal-case text-xl" href='/'>
                         {hello}
