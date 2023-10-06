@@ -39,7 +39,9 @@ export default function Footer() {
     }, []);
 
     return (
-        <footer className="fixed bottom-0 w-full bg-black text-white text-center p-4">
+        <footer className="rounded-t-xl w-full 
+                    bg-black text-white text-center 
+                    p-4 shadow-md">
             <p>
                 &copy; {`2021-${dateTime.year}`}{' '}
                 <Link href="/" className="text-white hover:text-blue-300">
