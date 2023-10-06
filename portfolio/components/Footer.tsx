@@ -39,7 +39,7 @@ export default function Footer() {
     }, []);
 
     return (
-        <footer className="rounded-t-xl w-full 
+        <footer className="styicky bottom-0 rounded-t-xl w-full 
                     bg-black text-white text-center 
                     p-4 shadow-md">
             <p>

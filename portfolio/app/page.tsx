@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <>
-      <main className="flex justfiy-center">
+      <main className="flex flex-grow justfiy-center">
         <div className="flex flex-col justify-between p-3 items-center sm:flex-row">
           <Image src="/profile_pic.jpg"
             alt="Picture of the Chris Zichko." width={500} height={500}
