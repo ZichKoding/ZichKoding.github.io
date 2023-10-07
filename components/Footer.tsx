@@ -42,9 +42,9 @@ export default function Footer() {
     }, []);
 
     return (
-        <footer className="relative flex flex-col sm:flex-row gap-3 bottom-0 ml-auto rounded-t-xl w-full 
-                            bg-sky-950 bg-opacity-90 text-orange-200 text-center 
-                            p-4 shadow-md justify-evenly">
+        <footer className="relative flex flex-col sm:flex-row gap-3 bottom-0 ml-auto rounded-t-3xl w-full 
+                            text-orange-200 text-center border-t-2 border-sky-200
+                            p-3 mt-5 justify-evenly">
             <p>
                 &copy; {`2021-${dateTime.year}`}{' '}
                 <Link href="/" className="text-white hover:text-blue-300">
@@ -54,13 +54,6 @@ export default function Footer() {
             <p className="font-extrabold italic text-orange-500">
                 {dateTime.year} - {new Date(dateTime.year, dateTime.month - 1).toLocaleString('default', { month: 'long' })} {dateTime.day}{' '}
                 {dateTime.hour}:{dateTime.minute}:{dateTime.second}
-            </p>
-
-            <p>
-                Background picture  from{' '}
-                <Link href={IMG_URL} target="_blank" className="text-white font-semibold italic underline">
-                    Smithsonian Magazine
-                </Link>
             </p>
         </footer>
     );

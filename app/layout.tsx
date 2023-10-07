@@ -16,9 +16,8 @@ export const metadata: Metadata = {
 export default function RootLayout({children,}: {children: React.ReactNode}) {
   return (
     <html lang="en">
-      <body className={`min-h-screen flex flex-col ${inter.className}`}>
-        <Image src="/farfarout-illustration-scaled.jpg" alt="Picture of the author" width={500} height={500}
-                className="fixed w-full h-full -z-30" />
+      <body className={`min-h-screen flex flex-col  
+                      bg-gradient-to-t from-slate-950 to-sky-950 ${inter.className}`}>
         <Header />
         {children}
         <Footer />

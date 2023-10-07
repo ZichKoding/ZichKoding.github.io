@@ -6,8 +6,8 @@ export default function Home() {
     <main className="flex flex-grow flex-col justify-evenly">
       <div className="flex flex-col gap-12 h-fit items-center sm:ml-40">
         <div className="flex flex-col justify-between w-10/12 h-full mt-7 p-3 items-center 
-                        bg-sky-950 bg-opacity-70 text-orange-200 text-opacity-80 
-                        rounded-2xl shadow-lg shadow-orange-700 lg:flex-row">
+                        text-orange-200 text-opacity-80 border-b-2 border-r-2 md:border-r-0 md:border-l-2  
+                        border-sky-200 rounded-xl lg:flex-row">
           <div className="flex flex-col flex-shrink-0 gap-3 w-32 h-auto 
                           overflow-hidden p-2 items-center sm:w-48 sm:h-auto">
             <Image src="/profile_pic.jpg"
