@@ -1,10 +1,11 @@
+import FeaturedProjects from '@/components/FeaturedProjects';
 import Image from 'next/image';
 
 export default function Home() {
   return (
     <>
-      <main className="flex flex-grow justfiy-center">
-        <div className="flex flex-col justify-between p-3 items-center sm:flex-row">
+      <main className="flex flex-grow flex-col gap-12">
+        <div className="flex flex-col justify-between p-3 items-center bg-slate-300 rounded-bl-3xl shadow-xl sm:flex-row">
           <Image src="/profile_pic.jpg"
             alt="Picture of the Chris Zichko." width={500} height={500}
             className="flex-shrink-0 w-32 h-32 sm:w-48 sm:h-48 
@@ -21,6 +22,8 @@ export default function Home() {
             that solve real-world problems and improve user experiences.
           </p>
         </div>
+
+        <FeaturedProjects />
       </main>
     </>
   )
