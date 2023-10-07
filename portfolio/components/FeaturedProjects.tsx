@@ -30,13 +30,13 @@ export default function FeaturedProjects() {
             <div className="flex flex-col px-2 items-center gap-10 md:grid lg:grid-cols-2">
                 {featuredProjects.map((project, index) => (
                     <div key={index} className={`w-10/12 h-20 sm:h-32 rounded-full 
-                                                bg-slate-900 hover:bg-slate-700 
-                                                shadow-xl flex flex-row justify-center 
+                                                bg-gradient-to-t from-sky-200 to-sky-500 hover:bg-cyan-900 
+                                                shadow-lg shadow-orange-800 flex flex-row justify-center 
                                                 items-center text-center
                                                 ${index % 2 === 0 ? 'sm:ml-auto' : 
                                                                     'sm:mr-auto'}`}>
                         <Image src={project.image_path} alt={project.title} width={120} height={120} className="h-20 sm:h-32 rounded-l-full mr-auto" />
-                        <div className="flex flex-col justify-center items-center text-white text-center mr-auto">
+                        <div className="flex flex-col justify-center items-center text-slate-900 text-center mr-auto">
                             <h3 className="text-lg font-bold">{project.title}</h3>
                         </div>
                     </div>

@@ -40,15 +40,15 @@ export default function Footer() {
 
     return (
         <footer className="styicky bottom-0 rounded-t-xl w-full 
-                    bg-black text-white text-center 
-                    p-4 shadow-md">
+                            bg-gradient-to-t from-sky-500 to-sky-900 text-white text-center 
+                            p-4 shadow-md">
             <p>
                 &copy; {`2021-${dateTime.year}`}{' '}
                 <Link href="/" className="text-white hover:text-blue-300">
                     ZichKoding
                 </Link>
             </p>
-            <p className="text-blue-200">
+            <p className="font-extrabold italic text-slate-700">
                 {dateTime.year} - {new Date(dateTime.year, dateTime.month - 1).toLocaleString('default', { month: 'long' })} {dateTime.day}{' '}
                 {dateTime.hour}:{dateTime.minute}:{dateTime.second}
             </p>

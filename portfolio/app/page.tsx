@@ -5,13 +5,18 @@ export default function Home() {
   return (
     <>
       <main className="flex flex-grow flex-col gap-12">
-        <div className="flex flex-col justify-between p-3 items-center bg-slate-300 rounded-bl-3xl shadow-xl sm:flex-row">
-          <Image src="/profile_pic.jpg"
-            alt="Picture of the Chris Zichko." width={500} height={500}
-            className="flex-shrink-0 w-32 h-32 sm:w-48 sm:h-48 
-                      rounded-full overflow-hidden p-2" />
-          
-          <p className="text-sm p-5">
+        <div className="flex flex-col justify-between p-3 items-center 
+                      {/*bg-gradient-to-t from-sky-400 to-sky-800*/} text-zinc-900 rounded-bl-3xl shadow-xl sm:flex-row">
+          <div className="flex flex-col flex-shrink-0 gap-3 w-32 h-auto 
+                          overflow-hidden p-2 items-center sm:w-48 sm:h-auto">
+            <Image src="/profile_pic.jpg"
+              alt="Picture of the Chris Zichko." width={500} height={500}
+              className="rounded-full" />
+            <p className="font-bold italic">
+              Chris Zichko
+            </p>
+          </div>
+          <p className=" text-lg font-semibold p-5">
             Hi, I'm a full stack developer with 3 years of experience in both{' '}
             front-end and back-end development. I'm certified in MERN stack development{' '} 
             and scientific computing with Python, and I have training in deploying{' '} 
