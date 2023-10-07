@@ -3,10 +3,11 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <>
-      <main className="flex flex-grow flex-col gap-12">
-        <div className="flex flex-col justify-between p-3 items-center 
-                      {/*bg-gradient-to-t from-sky-400 to-sky-800*/} text-zinc-900 rounded-bl-3xl shadow-xl sm:flex-row">
+    <main className="flex flex-grow flex-col justify-evenly">
+      <div className="flex flex-col gap-12 h-fit items-center sm:ml-40">
+        <div className="flex flex-col justify-between w-10/12 h-full mt-7 p-3 items-center 
+                        bg-sky-950 bg-opacity-70 text-orange-200 text-opacity-80 
+                        rounded-2xl shadow-lg shadow-orange-700 lg:flex-row">
           <div className="flex flex-col flex-shrink-0 gap-3 w-32 h-auto 
                           overflow-hidden p-2 items-center sm:w-48 sm:h-auto">
             <Image src="/profile_pic.jpg"
@@ -27,9 +28,8 @@ export default function Home() {
             that solve real-world problems and improve user experiences.
           </p>
         </div>
-
-        <FeaturedProjects />
-      </main>
-    </>
+      </div>
+      <FeaturedProjects />
+    </main>
   )
 }

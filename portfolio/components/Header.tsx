@@ -3,22 +3,29 @@ import Link from 'next/link';
 export default function Header() {
     return (
         <>
-            <header className="flex flex-col bg-gradient-to-t from-sky-950 to-sky-400 items-center
-                                w-full p-6 shadow- shadow-orange-950 z-10
-                                rounded-b-sm sm:flex-row sm:justify-between">
-                <Link href="/" className="font-bold text-4xl 
-                                         text-white py-10 sm:py-0">
+            <header className="sticky sm:absolute top-0 flex sm:flex-col gap-2 sm:gap-5
+                                p-3 sm:p-6 z-10 text-sky-200 text-opacity-90
+                                ml-auto">
+                <Link href="/" className="bg-orange-800 bg-opacity-90 shadow-lg shadow-sky-950 
+                                        hover:bg-sky-800 hover:bg-opacity-90 hover:text-orange-200
+                                        hover:shadow-orange-950
+                                        p-3 sm:p-5 h-fit text-2xl align-center font-bold rounded-lg">
                     ZichKoding
                 </Link>
-                <nav className="flex flex-row gap-7 items-center 
-                                justify-between text-xl text-white font-bold">
-                    <Link href="/about">
+                <nav className="flex flex-col gap-7 items-center 
+                                justify-between text-lg font-semibold
+                                bg-orange-800 bg-opacity-90 shadow-lg shadow-sky-950 
+                                p-3 mr-3 rounded-lg">
+                    <Link href="/about" className="hover:bg-sky-800 hover:bg-opacity-90 hover:text-orange-200
+                                        hover:shadow-orange-950 w-full text-center rounded-lg">
                         About
                     </Link>
-                    <Link href="/projects">
+                    <Link href="/projects" className="hover:bg-sky-800 hover:bg-opacity-90 hover:text-orange-200
+                                        hover:shadow-orange-950 w-full text-center rounded-lg">
                         Projects
                     </Link>
-                    <Link href="/contact">
+                    <Link href="/contact" className="hover:bg-sky-800 hover:bg-opacity-90 hover:text-orange-200
+                                        hover:shadow-orange-950 w-full text-center rounded-lg">
                         Contact
                     </Link>
                 </nav>

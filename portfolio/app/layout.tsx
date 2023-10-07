@@ -3,6 +3,8 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import Image from 'next/image'
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -13,8 +15,10 @@ export const metadata: Metadata = {
 
 export default function RootLayout({children,}: {children: React.ReactNode}) {
   return (
-    <html lang="en" className="bg-gradient-to-t from-sky-950 to-sky-100">
+    <html lang="en">
       <body className={`min-h-screen flex flex-col ${inter.className}`}>
+        <Image src="/farfarout-illustration-scaled.jpg" alt="Picture of the author" width={500} height={500}
+                className="fixed w-full h-full -z-30" />
         <Header />
         {children}
         <Footer />
