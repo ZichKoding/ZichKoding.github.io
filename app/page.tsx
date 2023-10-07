@@ -18,14 +18,14 @@ export default function Home() {
             </p>
           </div>
           <p className=" text-lg font-semibold p-5">
-            Hi, I'm a full stack developer with 3 years of experience in both{' '}
-            front-end and back-end development. I'm certified in MERN stack development{' '} 
-            and scientific computing with Python, and I have training in deploying{' '} 
-            applications with Next.js and Vercel. I also have experience as a Zoho CRM{' '} 
-            developer and working with CMS. Additionally, I have experience in creating{' '} 
-            APIs with AWS resources such as Lambda functions, API Gateways, S3 buckets,{' '} 
-            and SQS. I'm passionate about creating high-quality, scalable applications{' '} 
-            that solve real-world problems and improve user experiences.
+            {`Hi, I'm a full stack developer with 3 years of experience in both
+            front-end and back-end development. I'm certified in MERN stack development 
+            and scientific computing with Python, and I have training in deploying 
+            applications with Next.js and Vercel. I also have experience as a Zoho CRM 
+            developer and working with CMS. Additionally, I have experience in creating 
+            APIs with AWS resources such as Lambda functions, API Gateways, S3 buckets, 
+            and SQS. I'm passionate about creating high-quality, scalable applications 
+            that solve real-world problems and improve user experiences.`}
           </p>
         </div>
       </div>
