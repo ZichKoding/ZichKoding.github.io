@@ -17,7 +17,7 @@ export default function Contact() {
     message: "",
   });
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setContactInfo({
       ...contactInfo,
       [e.target.name]: e.target.value,
@@ -30,7 +30,7 @@ export default function Contact() {
     <>
       <main className="flex flex-grow justify-center items-center text-orange-200">
         <form className="flex flex-col border-b-2 border-r-2 md:border-r-0 md:border-l-2  
-                        border-sky-200 p-7 rounded-lg shadow-lg shadow-black">
+                        border-sky-200 p-2 sm:p-7 rounded-lg shadow-lg shadow-black">
           <div className="flex flex-col pb-3 sm:w-3/4">
             <label htmlFor="firstName">First Name</label>
             <input
@@ -70,8 +70,6 @@ export default function Contact() {
               id="message"
               name="message"
               value={contactInfo.message}
-              width="16"
-              height="4"
               onChange={handleChange}
               className="text-slate-900 rounded-lg font-bold w-full"
             />
