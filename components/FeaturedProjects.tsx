@@ -30,7 +30,7 @@ export default function FeaturedProjects() {
             <div className="flex flex-col px-2 items-center gap-10 md:grid lg:grid-cols-2">
                 {featuredProjects.map((project, index) => (
                     <div key={index} className={`w-10/12 lg:w-10/12 md:w-3/4  h-20 sm:h-32 
-                                                text-orange-200 text-opacity-80 border-l-4 
+                                                text-orange-200 border-l-4 
                                                 border-r-4 border-sky-200 hover:text-white
                                                 rounded-3xl  flex flex-row justify-center 
                                                 items-center text-center
