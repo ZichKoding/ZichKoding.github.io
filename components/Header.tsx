@@ -8,7 +8,7 @@ export default function Header() {
                 <Link href="/" className="text-opacity-80 border-b-2 border-r-2 md:border-r-0 md:border-l-2  
                                         border-sky-200 text-white hover:text-orange-200 p-3 sm:p-5 h-fit 
                                         text-2xl align-center font-bold rounded-lg bg-slate-950 
-                                        shadow-md shadow-slate-950 ">
+                                        shadow-md shadow-slate-950">
                     ZichKoding
                 </Link>
                 <nav className="flex flex-col gap-7 items-center 
