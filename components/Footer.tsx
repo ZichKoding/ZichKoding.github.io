@@ -51,7 +51,7 @@ export default function Footer() {
                     ZichKoding
                 </Link>
             </p>
-            <p className="font-extrabold italic text-orange-500">
+            <p className="font-bold italic text-orange-200">
                 {dateTime.year} - {new Date(dateTime.year, dateTime.month - 1).toLocaleString('default', { month: 'long' })} {dateTime.day}{' '}
                 {dateTime.hour}:{dateTime.minute}:{dateTime.second}
             </p>
