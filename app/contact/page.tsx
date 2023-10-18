@@ -32,7 +32,7 @@ export default function Contact() {
     );
   };
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement | HTMLButtonElement | MouseEvent>) => {
     e.preventDefault();
     if (isFormValid) {
       const email_obj: EmailMessageDetails = {
@@ -103,6 +103,7 @@ export default function Contact() {
           </div>
           <button type="submit"
                   disabled={!isFormValid}
+                  onClick={(e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => handleSubmit(e)}
                   className="border-b-2 border-r-2 md:border-r-0 md:border-l-2  
                                         border-sky-200 text-white hover:text-orange-200 mt-3 p-3 
                                         text-lg align-center font-bold rounded-lg bg-slate-950 

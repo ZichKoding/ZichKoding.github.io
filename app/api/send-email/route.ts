@@ -57,7 +57,7 @@ export const POST = async (req: NextRequest) => {
     });
 
     const message = {
-      from: req_body.from,
+      from: process.env.MY_EMAIL,
       to: process.env.MY_EMAIL,
       subject: `Message from ${req_body.firstName} ${req_body.lastName} through ZichKoding Portfolio`,
       text: req_body.text,

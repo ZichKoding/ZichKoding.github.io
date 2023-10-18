@@ -32,7 +32,7 @@ export async function sendEmail(emailMessageDetails: EmailMessageDetails): Promi
     try {
         const url = `/api/send-email?${qs.stringify(emailMessageDetails, { encodeValuesOnly: true })}`;
 
-        const response = await fetch(url);
+        const response = await fetch(url, { method: 'POST' });
 
         const data = await response.json();
         return data;
