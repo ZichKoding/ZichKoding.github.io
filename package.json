@@ -10,7 +10,9 @@
   },
   "dependencies": {
     "@types/tailwindcss": "^3.1.0",
+    "@vercel/postgres": "^0.5.0",
     "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.2",
     "lorem-ipsum": "^2.0.8",
     "next": "13.5.4",
     "nodemailer": "^6.9.5",
@@ -19,6 +21,7 @@
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.4",
     "@types/node": "^20",
     "@types/nodemailer": "^6.4.11",
     "@types/qs": "^6.9.8",
