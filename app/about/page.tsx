@@ -1,8 +1,6 @@
 import Header from '@/components/Header';
-import { LoremIpsum } from 'lorem-ipsum';
 
 export default function About() {
-  const lorem = new LoremIpsum();
   return (
     <>
       <main className="flex flex-grow justify-center items-center sm:ml-36">
@@ -13,7 +11,12 @@ export default function About() {
             A Little About Me...
           </h3>
           <p className="w-10/12 py-5 font-bold">
-            {lorem.generateWords(100)}
+            Software engineer with a passion for learning and innovation. 
+            Proven ability to develop and deliver high-quality software solutions 
+            using a variety of technologies, including Node.js, Next.js, React.js, 
+            Python, AWS, and SQL. Expertise in API integration, ETL processes, and 
+            Zoho CRM integration. Currently, working on a personal “telekinesis” 
+            project by reading brainwaves. 
           </p>
         </div>
       </main>

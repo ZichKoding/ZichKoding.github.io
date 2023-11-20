@@ -23,19 +23,19 @@ export default function LoginForm() {
     };
 
     return (
-        <form onSubmit={handleSubmit} className="justify-center items-center">
-            <label>
+        <form onSubmit={handleSubmit} className="h-screen flex flex-col items-center justify-center">
+            <label className="text-white">
                 Email:
-                <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
+                <input className="text-black" type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
             </label>
             <br />
-            <label>
+            <label className="text-white">
                 Password:
-                <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
+                <input className="text-black" type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
             </label>
             <br />
             <button
-                className="btn btn-primary"
+                className="btn text-white bg-black hover:bg-gray-700 p-3 rounded-md"
                 onSubmit={handleSubmit} 
                 type="submit"
                 >
