@@ -1,9 +1,12 @@
 'use client';
 import { useState } from 'react';
+import { useRouter } from 'next/navigation';
 
 export default function LoginForm() {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+
+    const router = useRouter();
 
     const handleSubmit = async (event: { preventDefault: () => void; }) => {
         event.preventDefault();
@@ -15,10 +18,13 @@ export default function LoginForm() {
             headers: {
                 'Content-Type': 'application/json',
             },
-        });
+        }).then(response => response.json());
+
+        const status = (await response).status;
+        
         // if successful, redirect to the dashboard
-        if ((await response).status === 200) {
-            window.location.href = '/admin/dashboard';
+        if (status === 200) {
+            router.push('/admin/dashboard');
         }
     };
 
