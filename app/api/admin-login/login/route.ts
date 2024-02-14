@@ -27,15 +27,25 @@ export async function POST(req: NextRequest): Promise<NextResponse | undefined> 
     const secret = process.env.JWT_SECRET as Secret;
     const token = jwt.sign({ username }, secret, { expiresIn: '1h' });
 
+    // const cookie = cookieStore.set({
+    //     name: 'token',
+    //     value: token,
+    //     httpOnly: true,
+    //     path: '/admin',
+    //     sameSite: 'strict',
+    //     secure: true,
+    //     maxAge: 3600
+    // });
+
     const cookie = cookieStore.set({
         name: 'token',
         value: token,
         httpOnly: true,
         path: '/admin',
-        sameSite: 'strict',
         secure: true,
         maxAge: 3600
     });
+
 
     return res.json({
         status: 200,
