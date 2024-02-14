@@ -18,7 +18,7 @@ export default function LoginForm() {
             headers: {
                 'Content-Type': 'application/json',
             },
-        }).then(response => response.json());
+        }).then(response => response.json()).catch(error => error);
 
         const status = (await response).status;
         
@@ -32,12 +32,12 @@ export default function LoginForm() {
         <form onSubmit={handleSubmit} className="h-screen flex flex-col items-center justify-center">
             <label className="text-white">
                 Email:
-                <input className="text-black" type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
+                <input className="text-black" type="email" value={email} autoComplete='username' onChange={(e) => setEmail(e.target.value)} />
             </label>
             <br />
             <label className="text-white">
                 Password:
-                <input className="text-black" type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
+                <input className="text-black" type="password" value={password} autoComplete='current-password' onChange={(e) => setPassword(e.target.value)} />
             </label>
             <br />
             <button
