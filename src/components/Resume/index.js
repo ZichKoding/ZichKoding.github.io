@@ -4,28 +4,48 @@ function Resume() {
     const mySkills = [
         "MongoDB/Mongoose.js", 
         "Express.js",
-        "React",
+        "React.js",
         "Node.js",
-        "Progressive Web Apps (PWA's)",
+        "Next.js",
+        "TypeScript",
+        "Progressive Web Applications (PWA's)",
         "GraphQL",
         "Python3+",
+        "Pandas",
+        "Pyautogui",
+        "Django",
         "Kivy 2.0+",
         "JavaScript ES6+",
         "CSS3",
         "HTML5",
         "MySQL/Sequelize.js",
+        "PostgreSQL",
         "Handlebars.js",
         "Webpack.js",
         "Jest",
         "Git",
-        "Heroku"
+        "GitHub",
+        "GitHub Actions",
+        "Heroku",
+        "AWS (API Gateway, Lambda, S3, and SQS)",
+        "Microservices",
+        "Vercel",
+        "CMS",
+        "ETL Pipelines",
+        "WordPress",
+        "Agile",
+        "Scrum",
+        "Waterfall",
+        "C#",
+        "VBScript",
+        "Deluge"
     ];
 
     return (
         <section className="resume-section">
             <div className="download">
-            <iframe src="https://drive.google.com/file/d/1tw9unvaz4qLNeB7NlnRhwSpbZ9EB1dG_/preview" className="resume" allow="autoplay"></iframe>
-                <a href={require('../../assets/images/Chris Zichko Resume-converted.pdf')} download={"ChrisZichkoResume"}>
+            <embed src={require('../../assets/images/Chris Zichko Resume.pdf')} className="resume"></embed>
+                <a href={require('../../assets/images/Chris Zichko Resume.pdf')} download={"ChrisZichkoResume"}>
                     <button className="resume-button">Download Chris's Resume</button>
                 </a>
             </div>
