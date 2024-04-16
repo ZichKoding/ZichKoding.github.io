@@ -3,11 +3,11 @@ import React, { useState } from "react";
 function Portfolio() {
     const [projects] = useState([
         {
-            name: 'Versa-Train',
-            url: 'https://crispy-gigglers.herokuapp.com/',
-            gurl: 'https://github.com/oldgraybuzzard/crispy-giggle',
-            description: `A MERN stack application using GraphQL for Employers to create and host their training material for their employees to stay up to date with the training required in the job place. 
-            Employers create the employee profiles and give the employees their login and password and the employees once logged in have their own seperate dashboard.`
+            name: 'OpenHouse Home Insurance',
+            url: 'https://openhouseinsurance.com/',
+            gurl: 'https://github.com/OpenAnalyticsBelfast',
+            description: `A direct to consumer insurtech platform that I collaborated with building in WordPress and AWS setting up 
+                automations with ZohoCRM and Talkdesk utilizing ETL pipelines.`
         },
         {
             name: 'ShopShop',
