@@ -6,6 +6,7 @@ function ContactForm() {
     const form = useRef();
 
     const [formState, setFormState] = useState({ name: '', email: '', mesaage: '' });
+    const [loading, setLoading] = useState(false); // Track loading state
 
     const { name, email, message } = formState;
 
@@ -47,20 +48,24 @@ function ContactForm() {
     function handleSubmit(e) {
         e.preventDefault();
 
+        setLoading(true); // Set loading to true when submitting
+
         emailjs.sendForm(_service_id, _template_id, form.current, {
             publicKey: _public_key
         }).then(
             () => {
                 console.log('SUCCESS!');
                 // Reset form state
-                setFormState({name: '', email: '', message: ''})
+                setFormState({ name: '', email: '', message: '' });
                 // Reset form fields
                 form.current.reset();
             },
             (error) => {
                 console.log('FAILED...', error.text);
             }
-        )
+        ).finally(() => {
+            setLoading(false); // Set loading to false after request is completed
+        });
     };
 
     return (
@@ -84,7 +89,7 @@ function ContactForm() {
                         <p className='error-text'>{errorMessage}</p>
                     </div>
                 )}
-                <button type='submit' value="Send" className='contact-button'>Submit</button>
+                <button type='submit' disabled={loading} className='contact-button'>{loading ? 'Sending...' : 'Submit'}</button>
             </form>
         </section>
     );
