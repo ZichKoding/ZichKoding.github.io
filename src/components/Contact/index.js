@@ -18,7 +18,7 @@ function ContactForm() {
     // sync data from form
     function handleChange(e) {
         // validate email
-        if (e.target.name === 'email') {
+        if (e.target.name === 'user_email') {
             const isValid = validateEmail(e.target.value);
             // isValid conditional statement
             if (!isValid) {
@@ -28,7 +28,13 @@ function ContactForm() {
             }
         } else {
             if (!e.target.value.length) {
-                setErrorMessage(`${e.target.name} is required.`);
+                let wordName = 'name';
+                let textMessage = 'message';
+                if (e.target.name === 'user_name') {
+                    setErrorMessage(`Your ${wordName} is required.`);
+                } else if (e.target.name === 'message') {
+                    setErrorMessage(`Your ${textMessage} is required.`);
+                }
             } else {
                 setErrorMessage('');
             }
@@ -59,15 +65,15 @@ function ContactForm() {
             <form id="contact-form" ref={form} onSubmit={handleSubmit}>
                 <div className='col-2'>
                     <label htmlFor='name'>Name:</label>
-                    <input type="text" defaultValue={name} className="form-input" onBlur={handleChange} name="user_name" />
+                    <input type="text" defaultValue={name} className="form-input" onBlur={handleChange} name="user_name" placeholder='Enter your name' />
                 </div>
                 <div className='col-2'>
                     <label htmlFor='email'>Email:</label>
-                    <input type="email" defaultValue={email} className="form-input" onBlur={handleChange} name="user_email" />
+                    <input type="email" defaultValue={email} className="form-input" onBlur={handleChange} name="user_email" placeholder='Enter your email' />
                 </div>
                 <div className='col-message'>
                     <label htmlFor='message'>Message:</label>
-                    <textarea name="message" defaultValue={message} className="form-input" onBlur={handleChange} rows="5" />
+                    <textarea name="message" defaultValue={message} className="form-input" onBlur={handleChange} rows="5" placeholder='Enter your message' />
                 </div>
                 {errorMessage && (
                     <div>

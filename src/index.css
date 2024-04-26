@@ -154,7 +154,9 @@ a {
 }
 
 .form-input {
-  color: black;
+  color: black !important;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   border-radius: 0.5rem;
 }
 

@@ -44,7 +44,7 @@ function Resume() {
     return (
         <section className="resume-section">
             <div className="download">
-            <embed src={require('../../assets/images/Chris Zichko Resume.pdf')} className="resume"></embed>
+            <iframe title="Chris Zichko's Resume" src={require('../../assets/images/Chris Zichko Resume.pdf')} className="resume"></iframe>
                 <a href={require('../../assets/images/Chris Zichko Resume.pdf')} download={"ChrisZichkoResume"}>
                     <button className="resume-button">Download Chris's Resume</button>
                 </a>

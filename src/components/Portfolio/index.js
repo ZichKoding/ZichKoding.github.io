@@ -6,8 +6,8 @@ function Portfolio() {
             name: 'OpenHouse Home Insurance',
             url: 'https://openhouseinsurance.com/',
             gurl: 'https://github.com/OpenAnalyticsBelfast',
-            description: `A direct to consumer insurtech platform that I collaborated with building in WordPress and AWS setting up 
-                automations with ZohoCRM and Talkdesk utilizing ETL pipelines.`
+            description: `I collaborated with a diverse, global team to build OpenHouse, a direct-to-consumer insurtech platform. Our tech 
+            stack included WordPress and AWS, where we set up automations with ZohoCRM and Talkdesk. Additionally, we leveraged ETL pipelines to streamline data processing.`
         },
         {
             name: 'ShopShop',
