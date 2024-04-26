@@ -52,6 +52,10 @@ function ContactForm() {
         }).then(
             () => {
                 console.log('SUCCESS!');
+                // Reset form state
+                setFormState({name: '', email: '', message: ''})
+                // Reset form fields
+                form.current.reset();
             },
             (error) => {
                 console.log('FAILED...', error.text);
