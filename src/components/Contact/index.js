@@ -1,12 +1,19 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import { validateEmail } from '../../utils/helpers';
 
 function ContactForm() {
+    const form = useRef();
+
     const [formState, setFormState] = useState({ name: '', email: '', mesaage: '' });
 
     const { name, email, message } = formState;
 
     const [errorMessage, setErrorMessage] = useState('');
+
+    const _template_id = 'template_z1nqxfp';
+    const _public_key = 'uutmaLg-i6JAMSGRu';
+    const _service_id = 'service_zrkv6qj';
 
     // sync data from form
     function handleChange(e) {
@@ -33,20 +40,30 @@ function ContactForm() {
 
     function handleSubmit(e) {
         e.preventDefault();
-        console.log(formState);
+
+        emailjs.sendForm(_service_id, _template_id, form.current, {
+            publicKey: _public_key
+        }).then(
+            () => {
+                console.log('SUCCESS!');
+            },
+            (error) => {
+                console.log('FAILED...', error.text);
+            }
+        )
     };
 
     return (
         <section className='contact-article'>
             <h2><span className='about'>Contact Me</span></h2>
-            <form id="contact-form" onSubmit={handleSubmit} action='mailto:chriszichkocoding@gmail.com'>
+            <form id="contact-form" ref={form} onSubmit={handleSubmit}>
                 <div className='col-2'>
                     <label htmlFor='name'>Name:</label>
-                    <input type="text" defaultValue={name} className="form-input" onBlur={handleChange} name="name" />
+                    <input type="text" defaultValue={name} className="form-input" onBlur={handleChange} name="user_name" />
                 </div>
                 <div className='col-2'>
                     <label htmlFor='email'>Email:</label>
-                    <input type="email" defaultValue={email} className="form-input" onBlur={handleChange} name="email" />
+                    <input type="email" defaultValue={email} className="form-input" onBlur={handleChange} name="user_email" />
                 </div>
                 <div className='col-message'>
                     <label htmlFor='message'>Message:</label>
@@ -57,7 +74,7 @@ function ContactForm() {
                         <p className='error-text'>{errorMessage}</p>
                     </div>
                 )}
-                <button type='submit' className='contact-button'><a href='mailto:chriszichkocoding@gmail.com'>Submit</a></button>
+                <button type='submit' value="Send" className='contact-button'>Submit</button>
             </form>
         </section>
     );
