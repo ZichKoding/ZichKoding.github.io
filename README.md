@@ -1,4 +1,7 @@
 # ***Chris Zichko's Portfolio Powered by ZichKoding***
+***Version 3 Coming Soon!***
+
+# ***Chris Zichko's Portfolio Powered by ZichKoding***
 ***Version 2***
 
 [_Click here for live page!_](https://zichkoding.github.io)
