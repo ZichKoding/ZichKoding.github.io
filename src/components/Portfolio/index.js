@@ -18,7 +18,7 @@ function Portfolio() {
         },
         {
             name: 'DeepThoughts',
-            url: 'https://deepthoughts-zichkoding.herokuapp.com',
+            url: 'https://deepthoughtsv002-a606b3285dd3.herokuapp.com/',
             gurl: 'https://github.com/ZichKoding/DeepThoughts',
             description: `A full MERN (MongoDB, Express.js, React.js, Node.js) social media application to share thoughts, react to thoughts, and add friends! This application also is using GraphQL
             and Apollo Server to enhance performance and user experience.`
