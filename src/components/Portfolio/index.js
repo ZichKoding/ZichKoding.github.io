@@ -9,13 +9,13 @@ function Portfolio() {
             description: `I collaborated with a diverse, global team to build OpenHouse, a direct-to-consumer insurtech platform. Our tech 
             stack included WordPress and AWS, where we set up automations with ZohoCRM and Talkdesk. Additionally, we leveraged ETL pipelines to streamline data processing.`
         },
-        {
-            name: 'ShopShop',
-            url: 'https://shopshopbyzichkoding.herokuapp.com',
-            gurl: 'https://github.com/ZichKoding/shop-shop',
-            description: `A PWA ecommerce website for a user to login, browse, and buy items. A PWA stands for Progressive Web Application,
-             meaning this application can be added to your home screen as it's own standalone app with offline functionality! `
-        },
+        // {
+        //     name: 'ShopShop',
+        //     url: 'https://shopshopbyzichkoding.herokuapp.com',
+        //     gurl: 'https://github.com/ZichKoding/shop-shop',
+        //     description: `A PWA ecommerce website for a user to login, browse, and buy items. A PWA stands for Progressive Web Application,
+        //      meaning this application can be added to your home screen as it's own standalone app with offline functionality! `
+        // },
         {
             name: 'DeepThoughts',
             url: 'https://deepthoughtsv002-a606b3285dd3.herokuapp.com/',
