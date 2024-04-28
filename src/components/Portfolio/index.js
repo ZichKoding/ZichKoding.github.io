@@ -25,7 +25,7 @@ function Portfolio() {
         },
         {
             name: 'AnotherBudgetApp',
-            url: 'https://anotherbudgetapp.herokuapp.com',
+            url: 'https://anotherbudgetapp002-0e420ea13c0c.herokuapp.com/',
             gurl: 'https://github.com/ZichKoding/AnotherBudgetApp',
             description: `My very first Progressive Web Application! It uses MongoDB, Mongoose, and IndexedDB to allow you 
                         to download the application and track your budget!`,
