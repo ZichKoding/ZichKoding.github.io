@@ -51,7 +51,7 @@ function Portfolio() {
             description: "A collaborative frontend project using javascript to fetch API's to bring you your favorite artist's songs and upcoming events!",
         },
         {
-            name: 'ZichKoding Note Taker',
+            name: 'ZNoteTaker',
             url: 'https://zichkodingnotetaker-01613425cf53.herokuapp.com/',
             gurl: 'https://github.com/ZichKoding/NoteTaker',
             description: 'An application for storing your notes. This application is powered by Express.js and Node.js',
