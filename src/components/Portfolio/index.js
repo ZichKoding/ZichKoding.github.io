@@ -32,7 +32,7 @@ function Portfolio() {
         },
         {
             name: 'ZichkoTechBlog',
-            url: 'https://zichkotechblog.herokuapp.com/',
+            url: 'https://zichkotechblog002-a04bdd4de23c.herokuapp.com/',
             gurl: 'https://github.com/ZichKoding/ZichkoTechBlog',
             description: `Zichko Tech Blog is an application using MySQL, sequelize.js, express.js, express-handlebars, and bcrypt for allowing users to login to create and comment on blogs.`,
         },
@@ -51,8 +51,8 @@ function Portfolio() {
             description: "A collaborative frontend project using javascript to fetch API's to bring you your favorite artist's songs and upcoming events!",
         },
         {
-            name: 'ZNoteTaker',
-            url: 'https://znotetaker.herokuapp.com',
+            name: 'ZichKoding Note Taker',
+            url: 'https://zichkodingnotetaker-01613425cf53.herokuapp.com/',
             gurl: 'https://github.com/ZichKoding/NoteTaker',
             description: 'An application for storing your notes. This application is powered by Express.js and Node.js',
         }
